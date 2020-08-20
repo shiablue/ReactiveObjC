@@ -12,26 +12,6 @@ script:
 xcode_workspace: ReactiveObjC.xcworkspace
 jobs:
   include:
-    - xcode_scheme: ReactiveObjC-macOSTests
-      env:
-        - XCODE_SDK=macosx
-        - XCODE_ACTION="test"
-        - XCODE_DESTINATION="arch=x86_64"
-    - xcode_scheme: ReactiveObjC-iOSTests
-      env:
-        - XCODE_SDK=iphonesimulator
-        - XCODE_ACTION="test"
-        - XCODE_DESTINATION="platform=iOS Simulator,name=iPhone 11"
-    - xcode_scheme: ReactiveObjC-tvOSTests
-      env:
-        - XCODE_SDK=appletvsimulator
-        - XCODE_ACTION="test"
-        - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K"
-    - xcode_scheme: ReactiveObjC-watchOS
-      env:
-        - XCODE_SDK=watchsimulator
-        - XCODE_ACTION=build
-        - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
     - script:
         - brew update
         - brew outdated carthage || brew upgrade carthage
@@ -62,6 +42,26 @@ jobs:
       - pod lib lint ReactiveObjC.podspec
       env:
         - JOB=PODSPEC
+    - xcode_scheme: ReactiveObjC-macOSTests
+      env:
+        - XCODE_SDK=macosx
+        - XCODE_ACTION="test"
+        - XCODE_DESTINATION="arch=x86_64"
+    - xcode_scheme: ReactiveObjC-iOSTests
+      env:
+        - XCODE_SDK=iphonesimulator
+        - XCODE_ACTION="test"
+        - XCODE_DESTINATION="platform=iOS Simulator,name=iPhone 11"
+    - xcode_scheme: ReactiveObjC-tvOSTests
+      env:
+        - XCODE_SDK=appletvsimulator
+        - XCODE_ACTION="test"
+        - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K"
+    - xcode_scheme: ReactiveObjC-watchOS
+      env:
+        - XCODE_SDK=watchsimulator
+        - XCODE_ACTION=build
+        - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
 notifications:
   email: false
   slack:
