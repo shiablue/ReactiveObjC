@@ -20,52 +20,52 @@
 		1569DE5C24EE4239006F37E0 /* NSEnumerator+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037643419EDA41200A782A9 /* NSEnumerator+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE5D24EE4239006F37E0 /* NSFileHandle+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037643619EDA41200A782A9 /* NSFileHandle+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE5E24EE4239006F37E0 /* NSIndexSet+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037643819EDA41200A782A9 /* NSIndexSet+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE5F24EE4239006F37E0 /* NSInvocation+RACTypeParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = D037643A19EDA41200A782A9 /* NSInvocation+RACTypeParsing.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE5F24EE4239006F37E0 /* NSInvocation+RACTypeParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = D037643A19EDA41200A782A9 /* NSInvocation+RACTypeParsing.h */; };
 		1569DE6024EE4239006F37E0 /* NSNotificationCenter+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037643C19EDA41200A782A9 /* NSNotificationCenter+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6124EE423A006F37E0 /* NSObject+RACAppKitBindings.h in Headers */ = {isa = PBXBuildFile; fileRef = D037643E19EDA41200A782A9 /* NSObject+RACAppKitBindings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6224EE423A006F37E0 /* NSObject+RACDeallocating.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644019EDA41200A782A9 /* NSObject+RACDeallocating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE6324EE423A006F37E0 /* NSObject+RACDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644219EDA41200A782A9 /* NSObject+RACDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DE6424EE423A006F37E0 /* NSObject+RACKVOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644419EDA41200A782A9 /* NSObject+RACKVOWrapper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE6324EE423A006F37E0 /* NSObject+RACDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644219EDA41200A782A9 /* NSObject+RACDescription.h */; };
+		1569DE6424EE423A006F37E0 /* NSObject+RACKVOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644419EDA41200A782A9 /* NSObject+RACKVOWrapper.h */; };
 		1569DE6524EE423A006F37E0 /* NSObject+RACLifting.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644619EDA41200A782A9 /* NSObject+RACLifting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6624EE423A006F37E0 /* NSObject+RACPropertySubscribing.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644819EDA41200A782A9 /* NSObject+RACPropertySubscribing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6724EE423A006F37E0 /* NSObject+RACSelectorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644A19EDA41200A782A9 /* NSObject+RACSelectorSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6824EE423A006F37E0 /* NSOrderedSet+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644C19EDA41200A782A9 /* NSOrderedSet+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6924EE423A006F37E0 /* NSSet+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037644E19EDA41200A782A9 /* NSSet+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE6A24EE423A006F37E0 /* NSString+RACKeyPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645019EDA41200A782A9 /* NSString+RACKeyPathUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE6A24EE423A006F37E0 /* NSString+RACKeyPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645019EDA41200A782A9 /* NSString+RACKeyPathUtilities.h */; };
 		1569DE6B24EE423A006F37E0 /* NSString+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645219EDA41200A782A9 /* NSString+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6C24EE423A006F37E0 /* NSString+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645419EDA41200A782A9 /* NSString+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6D24EE423A006F37E0 /* NSText+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645619EDA41200A782A9 /* NSText+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6E24EE423A006F37E0 /* NSURLConnection+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645819EDA41200A782A9 /* NSURLConnection+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE6F24EE423A006F37E0 /* NSUserDefaults+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645A19EDA41200A782A9 /* NSUserDefaults+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE7024EE423A006F37E0 /* RACAnnotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A17B4A51E8EFDCD00C8999E /* RACAnnotations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE7124EE423A006F37E0 /* RACArraySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645C19EDA41200A782A9 /* RACArraySequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE7124EE423A006F37E0 /* RACArraySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037645C19EDA41200A782A9 /* RACArraySequence.h */; };
 		1569DE7224EE423A006F37E0 /* RACBehaviorSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646019EDA41200A782A9 /* RACBehaviorSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE7324EE423A006F37E0 /* RACBlockTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646219EDA41200A782A9 /* RACBlockTrampoline.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE7324EE423A006F37E0 /* RACBlockTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646219EDA41200A782A9 /* RACBlockTrampoline.h */; };
 		1569DE7424EE423A006F37E0 /* RACChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646419EDA41200A782A9 /* RACChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE7524EE423A006F37E0 /* RACCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646619EDA41200A782A9 /* RACCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE7624EE423A006F37E0 /* RACCompoundDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646819EDA41200A782A9 /* RACCompoundDisposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE7724EE423A006F37E0 /* RACDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646B19EDA41200A782A9 /* RACDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE7824EE423A006F37E0 /* RACDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646D19EDA41200A782A9 /* RACDisposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE7924EE423A006F37E0 /* RACDynamicSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646F19EDA41200A782A9 /* RACDynamicSequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DE7A24EE423A006F37E0 /* RACDynamicSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647119EDA41200A782A9 /* RACDynamicSignal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DE7B24EE423A006F37E0 /* RACEagerSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647319EDA41200A782A9 /* RACEagerSequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE7924EE423A006F37E0 /* RACDynamicSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646F19EDA41200A782A9 /* RACDynamicSequence.h */; };
+		1569DE7A24EE423A006F37E0 /* RACDynamicSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647119EDA41200A782A9 /* RACDynamicSignal.h */; };
+		1569DE7B24EE423A006F37E0 /* RACEagerSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647319EDA41200A782A9 /* RACEagerSequence.h */; };
 		1569DE7C24EE423A006F37E0 /* RACEmptySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647519EDA41200A782A9 /* RACEmptySequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1569DE7D24EE423A006F37E0 /* RACEmptySignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647719EDA41200A782A9 /* RACEmptySignal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DE7E24EE423A006F37E0 /* RACErrorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647919EDA41200A782A9 /* RACErrorSignal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE7E24EE423A006F37E0 /* RACErrorSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647919EDA41200A782A9 /* RACErrorSignal.h */; };
 		1569DE7F24EE423A006F37E0 /* RACEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647B19EDA41200A782A9 /* RACEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE8024EE423A006F37E0 /* RACGroupedSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647D19EDA41200A782A9 /* RACGroupedSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE8124EE423A006F37E0 /* RACImmediateScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647F19EDA41200A782A9 /* RACImmediateScheduler.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DE8224EE423A006F37E0 /* RACIndexSetSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648119EDA41200A782A9 /* RACIndexSetSequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE8124EE423A006F37E0 /* RACImmediateScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D037647F19EDA41200A782A9 /* RACImmediateScheduler.h */; };
+		1569DE8224EE423A006F37E0 /* RACIndexSetSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648119EDA41200A782A9 /* RACIndexSetSequence.h */; };
 		1569DE8324EE423A006F37E0 /* RACKVOChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648319EDA41200A782A9 /* RACKVOChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE8424EE423A006F37E0 /* RACKVOProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DE8524EE423A006F37E0 /* RACKVOTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648519EDA41200A782A9 /* RACKVOTrampoline.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE8424EE423A006F37E0 /* RACKVOProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */; };
+		1569DE8524EE423A006F37E0 /* RACKVOTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648519EDA41200A782A9 /* RACKVOTrampoline.h */; };
 		1569DE8624EE423A006F37E0 /* RACMulticastConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648719EDA41200A782A9 /* RACMulticastConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE8724EE423A006F37E0 /* RACMulticastConnection+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648919EDA41200A782A9 /* RACMulticastConnection+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DE8824EE423A006F37E0 /* RACPassthroughSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648C19EDA41200A782A9 /* RACPassthroughSubscriber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE8824EE423A006F37E0 /* RACPassthroughSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648C19EDA41200A782A9 /* RACPassthroughSubscriber.h */; };
 		1569DE8924EE423A006F37E0 /* RACQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D037648E19EDA41200A782A9 /* RACQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE8A24EE423A006F37E0 /* RACQueueScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649019EDA41200A782A9 /* RACQueueScheduler+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE8B24EE423A006F37E0 /* RACReplaySubject.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649119EDA41200A782A9 /* RACReplaySubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE8C24EE423A006F37E0 /* RACReturnSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649319EDA41200A782A9 /* RACReturnSignal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE8C24EE423A006F37E0 /* RACReturnSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649319EDA41200A782A9 /* RACReturnSignal.h */; };
 		1569DE8D24EE423A006F37E0 /* RACScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649519EDA41200A782A9 /* RACScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE8E24EE423A006F37E0 /* RACScheduler+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649719EDA41200A782A9 /* RACScheduler+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1569DE8F24EE423A006F37E0 /* RACScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649819EDA41200A782A9 /* RACScheduler+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,22 +74,22 @@
 		1569DE9224EE423A006F37E0 /* RACSerialDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649D19EDA41200A782A9 /* RACSerialDisposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE9324EE423A006F37E0 /* RACSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = D037649F19EDA41200A782A9 /* RACSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE9424EE423A006F37E0 /* RACSignal+Operations.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764A119EDA41200A782A9 /* RACSignal+Operations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE9524EE423A006F37E0 /* RACSignalSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764A419EDA41200A782A9 /* RACSignalSequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE9524EE423A006F37E0 /* RACSignalSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764A419EDA41200A782A9 /* RACSignalSequence.h */; };
 		1569DE9624EE423A006F37E0 /* RACStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764A619EDA41200A782A9 /* RACStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE9724EE423A006F37E0 /* RACStream+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764A819EDA41200A782A9 /* RACStream+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DE9824EE423A006F37E0 /* RACStringSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764A919EDA41200A782A9 /* RACStringSequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE9824EE423A006F37E0 /* RACStringSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764A919EDA41200A782A9 /* RACStringSequence.h */; };
 		1569DE9924EE423A006F37E0 /* RACSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764AB19EDA41200A782A9 /* RACSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE9A24EE423A006F37E0 /* RACSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764AD19EDA41200A782A9 /* RACSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE9B24EE423A006F37E0 /* RACSubscriber+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764AF19EDA41200A782A9 /* RACSubscriber+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1569DE9C24EE423A006F37E0 /* RACSubscriptingAssignmentTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764B019EDA41200A782A9 /* RACSubscriptingAssignmentTrampoline.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DE9D24EE423A006F37E0 /* RACSubscriptionScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764B219EDA41200A782A9 /* RACSubscriptionScheduler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DE9D24EE423A006F37E0 /* RACSubscriptionScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764B219EDA41200A782A9 /* RACSubscriptionScheduler.h */; };
 		1569DE9E24EE423A006F37E0 /* RACTargetQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764B419EDA41200A782A9 /* RACTargetQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE9F24EE423A006F37E0 /* RACTestScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764B619EDA41200A782A9 /* RACTestScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DEA024EE423A006F37E0 /* RACTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764B819EDA41200A782A9 /* RACTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DEA124EE423A006F37E0 /* RACTupleSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764BA19EDA41200A782A9 /* RACTupleSequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1569DEA224EE423A006F37E0 /* RACUnarySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764BC19EDA41200A782A9 /* RACUnarySequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DEA124EE423A006F37E0 /* RACTupleSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764BA19EDA41200A782A9 /* RACTupleSequence.h */; };
+		1569DEA224EE423A006F37E0 /* RACUnarySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764BC19EDA41200A782A9 /* RACUnarySequence.h */; };
 		1569DEA324EE423A006F37E0 /* RACUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764BE19EDA41200A782A9 /* RACUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1569DEA424EE423A006F37E0 /* RACValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764C019EDA41200A782A9 /* RACValueTransformer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1569DEA424EE423A006F37E0 /* RACValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764C019EDA41200A782A9 /* RACValueTransformer.h */; };
 		1569DEA524EE423A006F37E0 /* ReactiveObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DEA624EE423A006F37E0 /* UIActionSheet+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764C219EDA41200A782A9 /* UIActionSheet+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DEA724EE423A006F37E0 /* UIAlertView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764C419EDA41200A782A9 /* UIAlertView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1269,25 +1269,26 @@
 				1569DEB724EE423A006F37E0 /* UITextField+RACSignalSupport.h in Headers */,
 				1569DEB824EE423A006F37E0 /* UITextView+RACSignalSupport.h in Headers */,
 				1569DEAC24EE423A006F37E0 /* UIControl+RACSignalSupportPrivate.h in Headers */,
+				1569DE8E24EE423A006F37E0 /* RACScheduler+Private.h in Headers */,
+				1569DE9724EE423A006F37E0 /* RACStream+Private.h in Headers */,
+				1569DE9B24EE423A006F37E0 /* RACSubscriber+Private.h in Headers */,
+				1569DE8724EE423A006F37E0 /* RACMulticastConnection+Private.h in Headers */,
+				1569DE7D24EE423A006F37E0 /* RACEmptySignal.h in Headers */,
+				1569DE7C24EE423A006F37E0 /* RACEmptySequence.h in Headers */,
+				1569DE5324EE4239006F37E0 /* EXTRuntimeExtensions.h in Headers */,
 				1569DEA424EE423A006F37E0 /* RACValueTransformer.h in Headers */,
 				1569DEA224EE423A006F37E0 /* RACUnarySequence.h in Headers */,
 				1569DEA124EE423A006F37E0 /* RACTupleSequence.h in Headers */,
 				1569DE9D24EE423A006F37E0 /* RACSubscriptionScheduler.h in Headers */,
 				1569DE9524EE423A006F37E0 /* RACSignalSequence.h in Headers */,
 				1569DE9824EE423A006F37E0 /* RACStringSequence.h in Headers */,
-				1569DE8E24EE423A006F37E0 /* RACScheduler+Private.h in Headers */,
-				1569DE9724EE423A006F37E0 /* RACStream+Private.h in Headers */,
-				1569DE9B24EE423A006F37E0 /* RACSubscriber+Private.h in Headers */,
 				1569DE8C24EE423A006F37E0 /* RACReturnSignal.h in Headers */,
 				1569DE8824EE423A006F37E0 /* RACPassthroughSubscriber.h in Headers */,
-				1569DE8724EE423A006F37E0 /* RACMulticastConnection+Private.h in Headers */,
 				1569DE8524EE423A006F37E0 /* RACKVOTrampoline.h in Headers */,
 				1569DE8424EE423A006F37E0 /* RACKVOProxy.h in Headers */,
 				1569DE8224EE423A006F37E0 /* RACIndexSetSequence.h in Headers */,
 				1569DE8124EE423A006F37E0 /* RACImmediateScheduler.h in Headers */,
 				1569DE7E24EE423A006F37E0 /* RACErrorSignal.h in Headers */,
-				1569DE7D24EE423A006F37E0 /* RACEmptySignal.h in Headers */,
-				1569DE7C24EE423A006F37E0 /* RACEmptySequence.h in Headers */,
 				1569DE7B24EE423A006F37E0 /* RACEagerSequence.h in Headers */,
 				1569DE7A24EE423A006F37E0 /* RACDynamicSignal.h in Headers */,
 				1569DE7924EE423A006F37E0 /* RACDynamicSequence.h in Headers */,
@@ -1297,7 +1298,6 @@
 				1569DE6424EE423A006F37E0 /* NSObject+RACKVOWrapper.h in Headers */,
 				1569DE6324EE423A006F37E0 /* NSObject+RACDescription.h in Headers */,
 				1569DE5F24EE4239006F37E0 /* NSInvocation+RACTypeParsing.h in Headers */,
-				1569DE5324EE4239006F37E0 /* EXTRuntimeExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
