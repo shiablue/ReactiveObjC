@@ -5,7 +5,7 @@
 //  Created by Dave Lee on 2013-10-17.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
-#if !TARGET_OS_OSX
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import <UIKit/UIKit.h>
 

@@ -5,7 +5,7 @@
 //  Created by Josh Vera on 5/5/13.
 //  Copyright (c) 2013 GitHub. All rights reserved.
 //
-#if !TARGET_OS_OSX
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UIGestureRecognizer+RACSignalSupport.h"
 #import <ReactiveObjC/EXTScope.h>

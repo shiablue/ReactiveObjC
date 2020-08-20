@@ -5,7 +5,7 @@
 //  Created by Ash Furrow on 2013-06-06.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
-#if !TARGET_OS_OSX
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UIButton+RACCommandSupport.h"
 #import <ReactiveObjC/EXTKeyPathCoding.h>

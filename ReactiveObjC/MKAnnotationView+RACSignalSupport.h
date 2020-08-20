@@ -5,7 +5,7 @@
 //  Created by Zak Remer on 3/31/15.
 //  Copyright (c) 2015 GitHub. All rights reserved.
 //
-#if !TARGET_OS_OSX
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>

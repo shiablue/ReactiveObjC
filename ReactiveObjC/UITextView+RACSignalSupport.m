@@ -5,7 +5,7 @@
 //  Created by Cody Krieger on 5/18/12.
 //  Copyright (c) 2012 Cody Krieger. All rights reserved.
 //
-#if !TARGET_OS_OSX
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UITextView+RACSignalSupport.h"
 #import <ReactiveObjC/EXTScope.h>
