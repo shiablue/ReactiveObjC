@@ -5,6 +5,7 @@
 //  Created by Timur Kuchkarov on 28.03.14.
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
+#if !TARGET_OS_OSX
 
 #import <UIKit/UIKit.h>
 
@@ -35,3 +36,5 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+
+#endif

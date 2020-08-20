@@ -5,6 +5,7 @@
 //  Created by Josh Abernathy on 4/17/12.
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
+#if TARGET_OS_OSX
 
 #import <Cocoa/Cocoa.h>
 
@@ -33,3 +34,5 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+
+#endif

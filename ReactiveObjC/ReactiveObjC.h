@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
 
+#import <TargetConditionals.h>
 #import <Foundation/Foundation.h>
 
 //! Project version number for ReactiveObjC.
@@ -61,8 +62,8 @@ FOUNDATION_EXPORT const unsigned char ReactiveObjCVersionString[];
 #import <ReactiveObjC/RACTuple.h>
 #import <ReactiveObjC/RACUnit.h>
 
-#if TARGET_OS_WATCH
-#elif TARGET_OS_IOS || TARGET_OS_TV
+//#if TARGET_OS_WATCH
+//#elif TARGET_OS_IOS || TARGET_OS_TV
 	#import <ReactiveObjC/UIBarButtonItem+RACCommandSupport.h>
 	#import <ReactiveObjC/UIButton+RACCommandSupport.h>
 	#import <ReactiveObjC/UICollectionReusableView+RACSignalSupport.h>
@@ -74,7 +75,7 @@ FOUNDATION_EXPORT const unsigned char ReactiveObjCVersionString[];
 	#import <ReactiveObjC/UITextField+RACSignalSupport.h>
 	#import <ReactiveObjC/UITextView+RACSignalSupport.h>
 
-	#if TARGET_OS_IOS
+//	#if !TARGET_OS_IOS
 		#import <ReactiveObjC/NSURLConnection+RACSupport.h>
 		#import <ReactiveObjC/UIStepper+RACSignalSupport.h>
 		#import <ReactiveObjC/UIDatePicker+RACSignalSupport.h>
@@ -85,11 +86,11 @@ FOUNDATION_EXPORT const unsigned char ReactiveObjCVersionString[];
 		#import <ReactiveObjC/UIRefreshControl+RACCommandSupport.h>
 		#import <ReactiveObjC/UISlider+RACSignalSupport.h>
 		#import <ReactiveObjC/UISwitch+RACSignalSupport.h>
-	#endif
-#elif TARGET_OS_MAC
+//	#endif
+//#elif TARGET_OS_MAC
 	#import <ReactiveObjC/NSControl+RACCommandSupport.h>
 	#import <ReactiveObjC/NSControl+RACTextSignalSupport.h>
 	#import <ReactiveObjC/NSObject+RACAppKitBindings.h>
 	#import <ReactiveObjC/NSText+RACSignalSupport.h>
 	#import <ReactiveObjC/NSURLConnection+RACSupport.h>
-#endif
+//#endif

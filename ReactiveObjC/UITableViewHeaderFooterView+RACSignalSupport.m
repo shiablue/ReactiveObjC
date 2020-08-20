@@ -5,6 +5,7 @@
 //  Created by Syo Ikeda on 12/30/13.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
+#if !TARGET_OS_OSX
 
 #import "UITableViewHeaderFooterView+RACSignalSupport.h"
 #import "NSObject+RACDescription.h"
@@ -29,3 +30,5 @@
 }
 
 @end
+
+#endif

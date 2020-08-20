@@ -5,6 +5,7 @@
 //  Created by Kyle LeNeau on 3/27/13.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
+#if !TARGET_OS_OSX
 
 #import "UIBarButtonItem+RACCommandSupport.h"
 #import <ReactiveObjC/EXTKeyPathCoding.h>
@@ -52,3 +53,5 @@ static void *UIControlEnabledDisposableKey = &UIControlEnabledDisposableKey;
 }
 
 @end
+
+#endif

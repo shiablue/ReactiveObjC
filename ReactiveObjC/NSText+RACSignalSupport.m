@@ -5,6 +5,7 @@
 //  Created by Justin Spahr-Summers on 2013-03-08.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
+#if TARGET_OS_OSX
 
 #import "NSText+RACSignalSupport.h"
 #import <ReactiveObjC/EXTScope.h>
@@ -36,3 +37,5 @@
 }
 
 @end
+
+#endif

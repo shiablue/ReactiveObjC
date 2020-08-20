@@ -1,0 +1,21 @@
+//
+//  ReactiveObjC.pch
+//  ReactiveObjC
+//
+//  Created by v on 2020/8/20.
+//  Copyright © 2020 GitHub. All rights reserved.
+//
+
+#ifndef ReactiveObjC_pch
+#define ReactiveObjC_pch
+
+#import <TargetConditionals.h>
+#import <Foundation/Foundation.h>
+
+#if TARGET_OS_OSX
+#import <AppKit/AppKit.h>
+#else
+#import <UIKit/UIKit.h>
+#endif
+
+#endif /* ReactiveObjC_pch */

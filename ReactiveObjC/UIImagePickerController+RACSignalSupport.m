@@ -5,6 +5,7 @@
 //  Created by Timur Kuchkarov on 28.03.14.
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
+#if !TARGET_OS_OSX
 
 #import "UIImagePickerController+RACSignalSupport.h"
 #import "RACDelegateProxy.h"
@@ -51,3 +52,5 @@ static void RACUseDelegateProxy(UIImagePickerController *self) {
 }
 
 @end
+
+#endif

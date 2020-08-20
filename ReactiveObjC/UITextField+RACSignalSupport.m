@@ -5,6 +5,7 @@
 //  Created by Josh Abernathy on 4/17/12.
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
+#if !TARGET_OS_OSX
 
 #import "UITextField+RACSignalSupport.h"
 #import <ReactiveObjC/EXTKeyPathCoding.h>
@@ -37,3 +38,5 @@
 }
 
 @end
+
+#endif

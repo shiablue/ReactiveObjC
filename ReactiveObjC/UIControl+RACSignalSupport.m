@@ -5,6 +5,7 @@
 //  Created by Josh Abernathy on 4/17/12.
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
+#if !TARGET_OS_OSX
 
 #import "UIControl+RACSignalSupport.h"
 #import <ReactiveObjC/EXTScope.h>
@@ -41,3 +42,5 @@
 }
 
 @end
+
+#endif

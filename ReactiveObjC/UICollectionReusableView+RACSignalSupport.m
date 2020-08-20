@@ -5,6 +5,7 @@
 //  Created by Kent Wong on 2013-10-04.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
+#if !TARGET_OS_OSX
 
 #import "UICollectionReusableView+RACSignalSupport.h"
 #import "NSObject+RACDescription.h"
@@ -29,3 +30,5 @@
 }
 
 @end
+
+#endif
