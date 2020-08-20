@@ -10,77 +10,34 @@ branches:
 script:
   - script/build
 xcode_workspace: ReactiveObjC.xcworkspace
-stages:
-  - compile_mac
-  - compile_ios
-  - compile_tvos
-  - compile_watchos
-  - compile_pod
-  - test_mac
-  - test_ios
-  - test_tvos
-  - test_watchos
 jobs:
   include:
-    - stage: compile_mac
-      script:
-        - brew update
-        - brew outdated carthage || brew upgrade carthage
-        - carthage build --no-skip-current --platform mac
+    - xcode_scheme: ReactiveObjC-macOSTests
       env:
-        - JOB=CARTHAGE-macOS
-    - stage: compile_ios
-      script:
-        - brew update
-        - brew outdated carthage || brew upgrade carthage
-        - carthage build --no-skip-current --platform iOS
+        - XCODE_SDK=macosx
+        - XCODE_ACTION="test"
+        - XCODE_DESTINATION="arch=x86_64"
+    - xcode_scheme: ReactiveObjC-iOSTests
       env:
-        - JOB=CARTHAGE-iOS
-    - stage: compile_tvos
-      script:
-        - brew update
-        - brew outdated carthage || brew upgrade carthage
-        - carthage build --no-skip-current --platform tvOS
+        - XCODE_SDK=iphonesimulator
+        - XCODE_ACTION="test"
+        - XCODE_DESTINATION="platform=iOS Simulator,name=iPhone 11"
+    - xcode_scheme: ReactiveObjC-tvOSTests
       env:
-        - JOB=CARTHAGE-tvOS
-    - stage: compile_watchos
-      script:
-        - brew update
-        - brew outdated carthage || brew upgrade carthage
-        - carthage build --no-skip-current --platform watchOS
+        - XCODE_SDK=appletvsimulator
+        - XCODE_ACTION="test"
+        - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K"
+    - xcode_scheme: ReactiveObjC
       env:
-        - JOB=CARTHAGE-watchOS
-    - stage: compile_pod
-      script:
+        - XCODE_SDK=watchsimulator
+        - XCODE_ACTION=build
+        - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
+    - script:
       - gem install cocoapods --pre
       - pod repo update --silent
       - pod lib lint ReactiveObjC.podspec
       env:
         - JOB=PODSPEC
-    - stage: test_mac
-      xcode_scheme: ReactiveObjC-macOSTests
-      env:
-        - XCODE_SDK=macosx
-        - XCODE_ACTION="test"
-        - XCODE_DESTINATION="arch=x86_64"
-    - stage: test_ios
-      xcode_scheme: ReactiveObjC-iOSTests
-      env:
-        - XCODE_SDK=iphonesimulator
-        - XCODE_ACTION="test"
-        - XCODE_DESTINATION="platform=iOS Simulator,name=iPhone 11"
-    - stage: test_tvos
-      xcode_scheme: ReactiveObjC-tvOSTests
-      env:
-        - XCODE_SDK=appletvsimulator
-        - XCODE_ACTION="test"
-        - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K"
-    - stage: test_watchos
-      xcode_scheme: ReactiveObjC
-      env:
-        - XCODE_SDK=watchsimulator
-        - XCODE_ACTION=build
-        - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
 notifications:
   email: false
   slack:

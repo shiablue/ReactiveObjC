@@ -28,6 +28,12 @@ if [[ -z $XCODE_DESTINATION ]]; then
     exit 1
 fi
 
+set -e
+
+brew update
+brew outdated carthage || brew upgrade carthage
+carthage checkout
+
 set -o pipefail
 xcodebuild $XCODE_ACTION \
     -workspace "$TRAVIS_XCODE_WORKSPACE" \
