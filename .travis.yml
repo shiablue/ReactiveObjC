@@ -75,8 +75,8 @@ jobs:
         - XCODE_SDK=appletvsimulator
         - XCODE_ACTION="test"
         - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K"
-      xcode_scheme: ReactiveObjC
     - stage: test_watchos
+      xcode_scheme: ReactiveObjC
       env:
         - XCODE_SDK=watchsimulator
         - XCODE_ACTION=build
