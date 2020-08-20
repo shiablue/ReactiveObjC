@@ -15,17 +15,17 @@ jobs:
     - xcode_scheme: ReactiveObjC-macOSTests
       env:
         - XCODE_SDK=macosx
-        - XCODE_ACTION="build test"
+        - XCODE_ACTION="test"
         - XCODE_DESTINATION="arch=x86_64"
     - xcode_scheme: ReactiveObjC-iOSTests
       env:
         - XCODE_SDK=iphonesimulator
-        - XCODE_ACTION="build-for-testing test-without-building"
+        - XCODE_ACTION="test"
         - XCODE_DESTINATION="platform=iOS Simulator,name=iPhone 11"
     - xcode_scheme: ReactiveObjC-tvOSTests
       env:
         - XCODE_SDK=appletvsimulator
-        - XCODE_ACTION="build-for-testing test-without-building"
+        - XCODE_ACTION="test"
         - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K"
     - xcode_scheme: ReactiveObjC-watchOS
       env:
