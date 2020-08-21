@@ -8,8 +8,8 @@
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UITextField+RACSignalSupport.h"
-#import <ReactiveObjC/EXTKeyPathCoding.h>
-#import <ReactiveObjC/EXTScope.h>
+#import <ReactiveObjC/RACEXTKeyPathCoding.h>
+#import <ReactiveObjC/RACEXTScope.h>
 #import "NSObject+RACDeallocating.h"
 #import "NSObject+RACDescription.h"
 #import "RACSignal+Operations.h"

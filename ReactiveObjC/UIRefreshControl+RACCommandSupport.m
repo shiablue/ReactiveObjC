@@ -8,7 +8,7 @@
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UIRefreshControl+RACCommandSupport.h"
-#import <ReactiveObjC/EXTKeyPathCoding.h>
+#import <ReactiveObjC/RACEXTKeyPathCoding.h>
 #import "RACCommand.h"
 #import "RACCompoundDisposable.h"
 #import "RACDisposable.h"

@@ -8,7 +8,7 @@
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UISegmentedControl+RACSignalSupport.h"
-#import <ReactiveObjC/EXTKeyPathCoding.h>
+#import <ReactiveObjC/RACEXTKeyPathCoding.h>
 #import "UIControl+RACSignalSupportPrivate.h"
 
 @implementation UISegmentedControl (RACSignalSupport)

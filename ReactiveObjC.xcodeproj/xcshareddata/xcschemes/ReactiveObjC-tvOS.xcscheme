@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1569DE4724EE40BE006F37E0"
+               BlueprintIdentifier = "15CBA47324F0003C00C45BA3"
                BuildableName = "ReactiveObjC.framework"
-               BlueprintName = "ReactiveObjC"
+               BlueprintName = "ReactiveObjC-tvOS"
                ReferencedContainer = "container:ReactiveObjC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "15CBA38424EFFE2A00C45BA3"
+               BuildableName = "ReactiveObjCTests-tvOS.xctest"
+               BlueprintName = "ReactiveObjCTests-tvOS"
+               ReferencedContainer = "container:ReactiveObjC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -50,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1569DE4724EE40BE006F37E0"
+            BlueprintIdentifier = "15CBA47324F0003C00C45BA3"
             BuildableName = "ReactiveObjC.framework"
-            BlueprintName = "ReactiveObjC"
+            BlueprintName = "ReactiveObjC-tvOS"
             ReferencedContainer = "container:ReactiveObjC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

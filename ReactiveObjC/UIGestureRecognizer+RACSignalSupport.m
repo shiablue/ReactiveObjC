@@ -8,7 +8,7 @@
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UIGestureRecognizer+RACSignalSupport.h"
-#import <ReactiveObjC/EXTScope.h>
+#import <ReactiveObjC/RACEXTScope.h>
 #import "NSObject+RACDeallocating.h"
 #import "NSObject+RACDescription.h"
 #import "RACCompoundDisposable.h"

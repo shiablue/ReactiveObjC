@@ -20,3 +20,7 @@ PlaygroundUtility.remap
 
 # Carthage
 Carthage/Build
+
+# Cocoapods
+Pods
+Podfile.lock

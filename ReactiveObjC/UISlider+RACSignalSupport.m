@@ -8,7 +8,7 @@
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UISlider+RACSignalSupport.h"
-#import <ReactiveObjC/EXTKeyPathCoding.h>
+#import <ReactiveObjC/RACEXTKeyPathCoding.h>
 #import "UIControl+RACSignalSupportPrivate.h"
 
 @implementation UISlider (RACSignalSupport)
