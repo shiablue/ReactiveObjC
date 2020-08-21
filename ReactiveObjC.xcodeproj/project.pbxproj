@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1558452B24F08F0000EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1569DE4824EE40BE006F37E0 /* ReactiveObjC.framework */; };
+		1558452E24F08F1000EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CBA54324F0003C00C45BA3 /* ReactiveObjC.framework */; };
+		1558453124F08F1D00EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CBA61524F0003F00C45BA3 /* ReactiveObjC.framework */; };
 		1569DE5624EE4239006F37E0 /* MKAnnotationView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE5724EE4239006F37E0 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE5824EE4239006F37E0 /* NSControl+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642C19EDA41200A782A9 /* NSControl+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -942,6 +945,30 @@
 		EC6809CD41054931476DE2FE /* Pods_ReactiveObjCTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC741B0A611DFF6FC6F4276E /* Pods_ReactiveObjCTests_tvOS.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1558452924F08EF600EE2D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04725E119E49ED7006002AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1569DE4724EE40BE006F37E0;
+			remoteInfo = "ReactiveObjC-iOS";
+		};
+		1558452C24F08F0800EE2D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04725E119E49ED7006002AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CBA47324F0003C00C45BA3;
+			remoteInfo = "ReactiveObjC-tvOS";
+		};
+		1558452F24F08F1700EE2D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04725E119E49ED7006002AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CBA54524F0003F00C45BA3;
+			remoteInfo = "ReactiveObjC-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0CC8CBDC7A63073B2D7D2775 /* Pods-ReactiveObjCTests-tvOS.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-tvOS.test.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-tvOS/Pods-ReactiveObjCTests-tvOS.test.xcconfig"; sourceTree = "<group>"; };
 		1353FEF0E5B732EADB9E08CD /* Pods_ReactiveObjCTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveObjCTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1241,6 +1268,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1558452B24F08F0000EE2D24 /* ReactiveObjC.framework in Frameworks */,
 				8D463C8BB005D87E687256AD /* Pods_ReactiveObjCTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1249,6 +1277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1558452E24F08F1000EE2D24 /* ReactiveObjC.framework in Frameworks */,
 				EC6809CD41054931476DE2FE /* Pods_ReactiveObjCTests_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1257,6 +1286,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1558453124F08F1D00EE2D24 /* ReactiveObjC.framework in Frameworks */,
 				91FDBBBD4FBA7E67F3C80380 /* Pods_ReactiveObjCTests_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2125,6 +2155,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1558452A24F08EF600EE2D24 /* PBXTargetDependency */,
 			);
 			name = "ReactiveObjCTests-iOS";
 			productName = ReactiveObjCTests;
@@ -2144,6 +2175,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1558452D24F08F0800EE2D24 /* PBXTargetDependency */,
 			);
 			name = "ReactiveObjCTests-tvOS";
 			productName = ReactiveObjCTests;
@@ -2163,6 +2195,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1558453024F08F1700EE2D24 /* PBXTargetDependency */,
 			);
 			name = "ReactiveObjCTests-macOS";
 			productName = ReactiveObjCTests;
@@ -3036,6 +3069,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1558452A24F08EF600EE2D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1569DE4724EE40BE006F37E0 /* ReactiveObjC-iOS */;
+			targetProxy = 1558452924F08EF600EE2D24 /* PBXContainerItemProxy */;
+		};
+		1558452D24F08F0800EE2D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CBA47324F0003C00C45BA3 /* ReactiveObjC-tvOS */;
+			targetProxy = 1558452C24F08F0800EE2D24 /* PBXContainerItemProxy */;
+		};
+		1558453024F08F1700EE2D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CBA54524F0003F00C45BA3 /* ReactiveObjC-macOS */;
+			targetProxy = 1558452F24F08F1700EE2D24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		1569DE4E24EE40BE006F37E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3338,6 +3389,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3391,6 +3446,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3443,6 +3502,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3495,6 +3558,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -3554,6 +3621,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -3607,6 +3678,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -3659,6 +3734,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -3711,6 +3790,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -3771,6 +3854,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -3824,6 +3911,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -3876,6 +3967,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -3928,6 +4023,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.ReactiveObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
