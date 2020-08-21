@@ -50,5 +50,6 @@ Pod::Spec.new do |s|
                                -exec perl -pi \
                                           -e 's@<ReactiveObjC/(?:(?!RAC)(EXT.*))\.h>@<ReactiveObjC/RAC\1.h>@' '{}' \;
                       CMD
-
+                      
+  s.static_framework = true
 end
