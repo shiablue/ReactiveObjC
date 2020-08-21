@@ -52,4 +52,5 @@ Pod::Spec.new do |s|
                       CMD
                       
   s.static_framework = true
+  
 end
