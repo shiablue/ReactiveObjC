@@ -17,6 +17,11 @@ jobs:
         - XCODE_SDK=iphonesimulator
         - XCODE_ACTION=test
         - XCODE_DESTINATION="platform=iOS Simulator,name=iPhone 11"
+    - xcode_scheme: ReactiveObjC-tvOS
+      env:
+        - XCODE_SDK=appletvsimulator
+        - XCODE_ACTION=test
+        - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV"
     - script:
       - gem install cocoapods --pre
       - pod repo update --silent
