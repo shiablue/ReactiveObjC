@@ -12,7 +12,7 @@ script:
 xcode_workspace: ReactiveObjC.xcworkspace
 jobs:
   include:
-    - xcode_scheme: ReactiveObjC-iOS (ReactiveObjC project)
+    - xcode_scheme: ReactiveObjC-iOS
       env:
         - XCODE_SDK=iphonesimulator
         - XCODE_ACTION=test
