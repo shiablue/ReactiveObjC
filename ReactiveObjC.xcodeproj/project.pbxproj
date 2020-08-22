@@ -10,6 +10,10 @@
 		1558452B24F08F0000EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1569DE4824EE40BE006F37E0 /* ReactiveObjC.framework */; };
 		1558452E24F08F1000EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CBA54324F0003C00C45BA3 /* ReactiveObjC.framework */; };
 		1558453124F08F1D00EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CBA61524F0003F00C45BA3 /* ReactiveObjC.framework */; };
+		1558453324F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */; };
+		1558453424F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */; };
+		1558453524F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */; };
+		1558453624F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */; };
 		1569DE5624EE4239006F37E0 /* MKAnnotationView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE5724EE4239006F37E0 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE5824EE4239006F37E0 /* NSControl+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642C19EDA41200A782A9 /* NSControl+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -972,6 +976,7 @@
 /* Begin PBXFileReference section */
 		0CC8CBDC7A63073B2D7D2775 /* Pods-ReactiveObjCTests-tvOS.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-tvOS.test.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-tvOS/Pods-ReactiveObjCTests-tvOS.test.xcconfig"; sourceTree = "<group>"; };
 		1353FEF0E5B732EADB9E08CD /* Pods_ReactiveObjCTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveObjCTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Deprecations+Removals.swift"; sourceTree = "<group>"; };
 		1569DE4824EE40BE006F37E0 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1569DF2424EE4BE6006F37E0 /* ReactiveObjC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveObjC.pch; sourceTree = "<group>"; };
 		15CBA37A24EFFE1F00C45BA3 /* ReactiveObjCTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveObjCTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1498,6 +1503,7 @@
 		D04725EC19E49ED7006002AA /* ReactiveObjC */ = {
 			isa = PBXGroup;
 			children = (
+				1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */,
 				D037666519EDA57100A782A9 /* extobjc */,
 				1569DF2324EE4B22006F37E0 /* AppKitSupport */,
 				1569DF2224EE4AAE006F37E0 /* UIKitSupport */,
@@ -2268,6 +2274,7 @@
 				TargetAttributes = {
 					1569DE4724EE40BE006F37E0 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 						ProvisioningStyle = Automatic;
 					};
 					15CBA37924EFFE1F00C45BA3 = {
@@ -2284,12 +2291,15 @@
 						ProvisioningStyle = Automatic;
 					};
 					15CBA47324F0003C00C45BA3 = {
+						LastSwiftMigration = 1160;
 						ProvisioningStyle = Automatic;
 					};
 					15CBA54524F0003F00C45BA3 = {
+						LastSwiftMigration = 1160;
 						ProvisioningStyle = Automatic;
 					};
 					15CBA61724F000CF00C45BA3 = {
+						LastSwiftMigration = 1160;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -2539,6 +2549,7 @@
 				1569DED824EE4272006F37E0 /* RACBlockTrampoline.m in Sources */,
 				1569DED924EE4272006F37E0 /* RACChannel.m in Sources */,
 				1569DEDA24EE4272006F37E0 /* RACCommand.m in Sources */,
+				1558453324F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */,
 				1569DEDB24EE4272006F37E0 /* RACCompoundDisposable.m in Sources */,
 				1569DEDC24EE4272006F37E0 /* RACDelegateProxy.m in Sources */,
 				1569DEDD24EE4272006F37E0 /* RACDisposable.m in Sources */,
@@ -2800,6 +2811,7 @@
 				15CBA4FB24F0003C00C45BA3 /* RACBlockTrampoline.m in Sources */,
 				15CBA4FC24F0003C00C45BA3 /* RACChannel.m in Sources */,
 				15CBA4FD24F0003C00C45BA3 /* RACCommand.m in Sources */,
+				1558453424F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */,
 				15CBA4FE24F0003C00C45BA3 /* RACCompoundDisposable.m in Sources */,
 				15CBA4FF24F0003C00C45BA3 /* RACDelegateProxy.m in Sources */,
 				15CBA50024F0003C00C45BA3 /* RACDisposable.m in Sources */,
@@ -2901,6 +2913,7 @@
 				15CBA5CD24F0003F00C45BA3 /* RACBlockTrampoline.m in Sources */,
 				15CBA5CE24F0003F00C45BA3 /* RACChannel.m in Sources */,
 				15CBA5CF24F0003F00C45BA3 /* RACCommand.m in Sources */,
+				1558453524F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */,
 				15CBA5D024F0003F00C45BA3 /* RACCompoundDisposable.m in Sources */,
 				15CBA5D124F0003F00C45BA3 /* RACDelegateProxy.m in Sources */,
 				15CBA5D224F0003F00C45BA3 /* RACDisposable.m in Sources */,
@@ -3002,6 +3015,7 @@
 				15CBA69F24F000CF00C45BA3 /* RACBlockTrampoline.m in Sources */,
 				15CBA6A024F000CF00C45BA3 /* RACChannel.m in Sources */,
 				15CBA6A124F000CF00C45BA3 /* RACCommand.m in Sources */,
+				1558453624F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */,
 				15CBA6A224F000CF00C45BA3 /* RACCompoundDisposable.m in Sources */,
 				15CBA6A324F000CF00C45BA3 /* RACDelegateProxy.m in Sources */,
 				15CBA6A424F000CF00C45BA3 /* RACDisposable.m in Sources */,
@@ -3147,6 +3161,8 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALID_ARCHS = "x86_64 arm64 arm64e armv7 armv7s";
 			};
@@ -3207,6 +3223,8 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64 arm64e armv7 armv7s";
@@ -3269,6 +3287,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64 arm64e armv7 armv7s";
@@ -3331,6 +3350,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64 arm64e armv7 armv7s";
@@ -3341,6 +3361,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9B2937B9CE674453F95E3C7 /* Pods-ReactiveObjCTests-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3402,6 +3423,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E84AF7720271B0AC98456 /* Pods-ReactiveObjCTests-iOS.test.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3458,6 +3480,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FB97AC95076E61173ABBB0E /* Pods-ReactiveObjCTests-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3514,6 +3537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B3213F89546601C15588964 /* Pods-ReactiveObjCTests-iOS.profile.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3570,6 +3594,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F27F65856EE83AC8228C2DE5 /* Pods-ReactiveObjCTests-tvOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3631,6 +3656,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CC8CBDC7A63073B2D7D2775 /* Pods-ReactiveObjCTests-tvOS.test.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3687,6 +3713,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6011C80D78EC8E14BCFAB4C /* Pods-ReactiveObjCTests-tvOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3743,6 +3770,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA72747FA5B11D110F10A52B /* Pods-ReactiveObjCTests-tvOS.profile.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3799,6 +3827,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6F43B0CA66DC86F59D2A7BE /* Pods-ReactiveObjCTests-macOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3860,6 +3889,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DD6C9A5DBAB4413A617C361 /* Pods-ReactiveObjCTests-macOS.test.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3916,6 +3946,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 329393FB1F37346D0308428B /* Pods-ReactiveObjCTests-macOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3972,6 +4003,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEA3F9405C43871EDFAAEBC7 /* Pods-ReactiveObjCTests-macOS.profile.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -4083,6 +4115,8 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
@@ -4142,6 +4176,8 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64";
 			};
@@ -4203,6 +4239,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64";
 			};
@@ -4264,6 +4301,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64";
 			};
@@ -4327,6 +4365,8 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
@@ -4385,6 +4425,8 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = x86_64;
 			};
@@ -4445,6 +4487,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = x86_64;
 			};
@@ -4505,6 +4548,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = x86_64;
 			};
@@ -4569,6 +4613,8 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "x86_64 arm64_32 armv7k";
 			};
 			name = Debug;
@@ -4628,6 +4674,8 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64_32 armv7k";
 			};
@@ -4689,6 +4737,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64_32 armv7k";
 			};
@@ -4750,6 +4799,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "x86_64 arm64_32 armv7k";
 			};
