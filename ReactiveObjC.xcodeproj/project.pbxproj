@@ -2152,11 +2152,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15CBA38324EFFE1F00C45BA3 /* Build configuration list for PBXNativeTarget "ReactiveObjCTests-iOS" */;
 			buildPhases = (
-				FECB68CA111B3330982E595C /* [CP] Check Pods Manifest.lock */,
 				15CBA37624EFFE1F00C45BA3 /* Sources */,
 				15CBA37724EFFE1F00C45BA3 /* Frameworks */,
 				15CBA37824EFFE1F00C45BA3 /* Resources */,
-				C0CAF150AFFF119CEC4BFC4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2172,11 +2170,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15CBA38924EFFE2A00C45BA3 /* Build configuration list for PBXNativeTarget "ReactiveObjCTests-tvOS" */;
 			buildPhases = (
-				4107833482FB29CEAF417581 /* [CP] Check Pods Manifest.lock */,
 				15CBA38524EFFE2A00C45BA3 /* Sources */,
 				15CBA38724EFFE2A00C45BA3 /* Frameworks */,
 				15CBA38824EFFE2A00C45BA3 /* Resources */,
-				3991587C2BEB2537F7360A2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2192,11 +2188,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15CBA39524EFFE2E00C45BA3 /* Build configuration list for PBXNativeTarget "ReactiveObjCTests-macOS" */;
 			buildPhases = (
-				31627BFF6F6D4A09DC741CB5 /* [CP] Check Pods Manifest.lock */,
 				15CBA39124EFFE2E00C45BA3 /* Sources */,
 				15CBA39324EFFE2E00C45BA3 /* Frameworks */,
 				15CBA39424EFFE2E00C45BA3 /* Resources */,
-				EC72BE82E5274F7F64DEE087 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2382,135 +2376,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		31627BFF6F6D4A09DC741CB5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjCTests-macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3991587C2BEB2537F7360A2E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactiveObjCTests-tvOS/Pods-ReactiveObjCTests-tvOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble-tvOS/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick-tvOS/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactiveObjCTests-tvOS/Pods-ReactiveObjCTests-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4107833482FB29CEAF417581 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjCTests-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0CAF150AFFF119CEC4BFC4C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactiveObjCTests-iOS/Pods-ReactiveObjCTests-iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactiveObjCTests-iOS/Pods-ReactiveObjCTests-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC72BE82E5274F7F64DEE087 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactiveObjCTests-macOS/Pods-ReactiveObjCTests-macOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Nimble-macOS/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick-macOS/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactiveObjCTests-macOS/Pods-ReactiveObjCTests-macOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FECB68CA111B3330982E595C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjCTests-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1569DE4424EE40BE006F37E0 /* Sources */ = {
