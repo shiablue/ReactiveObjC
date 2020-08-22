@@ -22,6 +22,11 @@ jobs:
         - XCODE_SDK=appletvsimulator
         - XCODE_ACTION=test
         - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV"
+    - xcode_scheme: ReactiveObjC-macOS
+      env:
+        - XCODE_SDK=macosx
+        - XCODE_ACTION=test
+        - XCODE_DESTINATION="platform=macOS,arch=x86_64"
     - script:
       - gem install cocoapods --pre
       - pod repo update --silent
