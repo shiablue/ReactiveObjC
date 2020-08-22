@@ -3298,7 +3298,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9B2937B9CE674453F95E3C7 /* Pods-ReactiveObjCTests-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3360,7 +3359,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E84AF7720271B0AC98456 /* Pods-ReactiveObjCTests-iOS.test.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3417,7 +3415,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FB97AC95076E61173ABBB0E /* Pods-ReactiveObjCTests-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3474,7 +3471,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B3213F89546601C15588964 /* Pods-ReactiveObjCTests-iOS.profile.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3531,7 +3527,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F27F65856EE83AC8228C2DE5 /* Pods-ReactiveObjCTests-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3593,7 +3588,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CC8CBDC7A63073B2D7D2775 /* Pods-ReactiveObjCTests-tvOS.test.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3650,7 +3644,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6011C80D78EC8E14BCFAB4C /* Pods-ReactiveObjCTests-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3707,7 +3700,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA72747FA5B11D110F10A52B /* Pods-ReactiveObjCTests-tvOS.profile.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3764,7 +3756,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6F43B0CA66DC86F59D2A7BE /* Pods-ReactiveObjCTests-macOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3826,7 +3817,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DD6C9A5DBAB4413A617C361 /* Pods-ReactiveObjCTests-macOS.test.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3883,7 +3873,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 329393FB1F37346D0308428B /* Pods-ReactiveObjCTests-macOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -3940,7 +3929,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEA3F9405C43871EDFAAEBC7 /* Pods-ReactiveObjCTests-macOS.profile.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
