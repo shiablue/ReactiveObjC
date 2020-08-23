@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BUILD_DIRECTORY="build"
-CONFIGURATION=Release
+CONFIGURATION=Test
 
 if [[ -z $TRAVIS_XCODE_WORKSPACE ]]; then
     echo "Error: \$TRAVIS_XCODE_WORKSPACE is not set."
