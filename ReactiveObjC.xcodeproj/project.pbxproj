@@ -974,7 +974,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CC8CBDC7A63073B2D7D2775 /* Pods-ReactiveObjCTests-tvOS.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-tvOS.test.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-tvOS/Pods-ReactiveObjCTests-tvOS.test.xcconfig"; sourceTree = "<group>"; };
 		1353FEF0E5B732EADB9E08CD /* Pods_ReactiveObjCTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveObjCTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Deprecations+Removals.swift"; sourceTree = "<group>"; };
 		1569DE4824EE40BE006F37E0 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1053,19 +1052,12 @@
 		15CBA6EB24F006F700C45BA3 /* RACEXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACEXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		15CBA6EC24F006F700C45BA3 /* RACEXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		15CBA6ED24F006F700C45BA3 /* RACEXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTKeyPathCoding.h; sourceTree = "<group>"; };
-		2B3213F89546601C15588964 /* Pods-ReactiveObjCTests-iOS.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-iOS.profile.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-iOS/Pods-ReactiveObjCTests-iOS.profile.xcconfig"; sourceTree = "<group>"; };
 		314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		314304161ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+RACSignalSupport.m"; sourceTree = "<group>"; };
-		329393FB1F37346D0308428B /* Pods-ReactiveObjCTests-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-macOS.release.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-macOS/Pods-ReactiveObjCTests-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		3A17B4A51E8EFDCD00C8999E /* RACAnnotations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACAnnotations.h; sourceTree = "<group>"; };
 		5AAC7D501439EFBF1283EEEC /* Pods_ReactiveObjCTests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveObjCTests_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FB97AC95076E61173ABBB0E /* Pods-ReactiveObjCTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-iOS.release.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-iOS/Pods-ReactiveObjCTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACKVOProxy.h; sourceTree = "<group>"; };
 		7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxy.m; sourceTree = "<group>"; };
-		8DD6C9A5DBAB4413A617C361 /* Pods-ReactiveObjCTests-macOS.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-macOS.test.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-macOS/Pods-ReactiveObjCTests-macOS.test.xcconfig"; sourceTree = "<group>"; };
-		BA72747FA5B11D110F10A52B /* Pods-ReactiveObjCTests-tvOS.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-tvOS.profile.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-tvOS/Pods-ReactiveObjCTests-tvOS.profile.xcconfig"; sourceTree = "<group>"; };
-		BD4E84AF7720271B0AC98456 /* Pods-ReactiveObjCTests-iOS.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-iOS.test.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-iOS/Pods-ReactiveObjCTests-iOS.test.xcconfig"; sourceTree = "<group>"; };
-		CEA3F9405C43871EDFAAEBC7 /* Pods-ReactiveObjCTests-macOS.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-macOS.profile.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-macOS/Pods-ReactiveObjCTests-macOS.profile.xcconfig"; sourceTree = "<group>"; };
 		D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		D037642B19EDA41200A782A9 /* NSArray+RACSequenceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		D037642C19EDA41200A782A9 /* NSControl+RACCommandSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSControl+RACCommandSupport.h"; sourceTree = "<group>"; };
@@ -1254,11 +1246,7 @@
 		D03764E719EDA41200A782A9 /* UITextView+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+RACSignalSupport.m"; sourceTree = "<group>"; };
 		D04725EE19E49ED7006002AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04725EF19E49ED7006002AA /* ReactiveObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveObjC.h; sourceTree = "<group>"; };
-		D6F43B0CA66DC86F59D2A7BE /* Pods-ReactiveObjCTests-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-macOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-macOS/Pods-ReactiveObjCTests-macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D9B2937B9CE674453F95E3C7 /* Pods-ReactiveObjCTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-iOS/Pods-ReactiveObjCTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC741B0A611DFF6FC6F4276E /* Pods_ReactiveObjCTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveObjCTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6011C80D78EC8E14BCFAB4C /* Pods-ReactiveObjCTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-tvOS/Pods-ReactiveObjCTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		F27F65856EE83AC8228C2DE5 /* Pods-ReactiveObjCTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCTests-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveObjCTests-tvOS/Pods-ReactiveObjCTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1481,7 +1469,6 @@
 				15CBA37B24EFFE1F00C45BA3 /* ReactiveObjCTests */,
 				D04725EB19E49ED7006002AA /* Products */,
 				1569DF1924EE4346006F37E0 /* Frameworks */,
-				DC8667DA31587E6F7720CE6C /* Pods */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 1;
@@ -1663,25 +1650,6 @@
 				D04725EE19E49ED7006002AA /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DC8667DA31587E6F7720CE6C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D9B2937B9CE674453F95E3C7 /* Pods-ReactiveObjCTests-iOS.debug.xcconfig */,
-				BD4E84AF7720271B0AC98456 /* Pods-ReactiveObjCTests-iOS.test.xcconfig */,
-				5FB97AC95076E61173ABBB0E /* Pods-ReactiveObjCTests-iOS.release.xcconfig */,
-				2B3213F89546601C15588964 /* Pods-ReactiveObjCTests-iOS.profile.xcconfig */,
-				D6F43B0CA66DC86F59D2A7BE /* Pods-ReactiveObjCTests-macOS.debug.xcconfig */,
-				8DD6C9A5DBAB4413A617C361 /* Pods-ReactiveObjCTests-macOS.test.xcconfig */,
-				329393FB1F37346D0308428B /* Pods-ReactiveObjCTests-macOS.release.xcconfig */,
-				CEA3F9405C43871EDFAAEBC7 /* Pods-ReactiveObjCTests-macOS.profile.xcconfig */,
-				F27F65856EE83AC8228C2DE5 /* Pods-ReactiveObjCTests-tvOS.debug.xcconfig */,
-				0CC8CBDC7A63073B2D7D2775 /* Pods-ReactiveObjCTests-tvOS.test.xcconfig */,
-				E6011C80D78EC8E14BCFAB4C /* Pods-ReactiveObjCTests-tvOS.release.xcconfig */,
-				BA72747FA5B11D110F10A52B /* Pods-ReactiveObjCTests-tvOS.profile.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2152,7 +2120,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15CBA38324EFFE1F00C45BA3 /* Build configuration list for PBXNativeTarget "ReactiveObjCTests-iOS" */;
 			buildPhases = (
-				F310E1E8D86F291124E58BE7 /* [CP] Check Pods Manifest.lock */,
 				15CBA37624EFFE1F00C45BA3 /* Sources */,
 				15CBA37724EFFE1F00C45BA3 /* Frameworks */,
 				15CBA37824EFFE1F00C45BA3 /* Resources */,
@@ -2171,7 +2138,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15CBA38924EFFE2A00C45BA3 /* Build configuration list for PBXNativeTarget "ReactiveObjCTests-tvOS" */;
 			buildPhases = (
-				08EEC1A732B3AF51E0C86246 /* [CP] Check Pods Manifest.lock */,
 				15CBA38524EFFE2A00C45BA3 /* Sources */,
 				15CBA38724EFFE2A00C45BA3 /* Frameworks */,
 				15CBA38824EFFE2A00C45BA3 /* Resources */,
@@ -2190,7 +2156,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15CBA39524EFFE2E00C45BA3 /* Build configuration list for PBXNativeTarget "ReactiveObjCTests-macOS" */;
 			buildPhases = (
-				4787603EF3F1041D18055483 /* [CP] Check Pods Manifest.lock */,
 				15CBA39124EFFE2E00C45BA3 /* Sources */,
 				15CBA39324EFFE2E00C45BA3 /* Frameworks */,
 				15CBA39424EFFE2E00C45BA3 /* Resources */,
@@ -2379,75 +2344,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		08EEC1A732B3AF51E0C86246 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjCTests-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4787603EF3F1041D18055483 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjCTests-macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F310E1E8D86F291124E58BE7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjCTests-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1569DE4424EE40BE006F37E0 /* Sources */ = {
@@ -3296,7 +3192,6 @@
 		};
 		15CBA37F24EFFE1F00C45BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9B2937B9CE674453F95E3C7 /* Pods-ReactiveObjCTests-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3354,7 +3249,6 @@
 		};
 		15CBA38024EFFE1F00C45BA3 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD4E84AF7720271B0AC98456 /* Pods-ReactiveObjCTests-iOS.test.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3407,7 +3301,6 @@
 		};
 		15CBA38124EFFE1F00C45BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FB97AC95076E61173ABBB0E /* Pods-ReactiveObjCTests-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3460,7 +3353,6 @@
 		};
 		15CBA38224EFFE1F00C45BA3 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B3213F89546601C15588964 /* Pods-ReactiveObjCTests-iOS.profile.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3513,7 +3405,6 @@
 		};
 		15CBA38A24EFFE2A00C45BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F27F65856EE83AC8228C2DE5 /* Pods-ReactiveObjCTests-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3571,7 +3462,6 @@
 		};
 		15CBA38B24EFFE2A00C45BA3 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CC8CBDC7A63073B2D7D2775 /* Pods-ReactiveObjCTests-tvOS.test.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3624,7 +3514,6 @@
 		};
 		15CBA38C24EFFE2A00C45BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6011C80D78EC8E14BCFAB4C /* Pods-ReactiveObjCTests-tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3677,7 +3566,6 @@
 		};
 		15CBA38D24EFFE2A00C45BA3 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA72747FA5B11D110F10A52B /* Pods-ReactiveObjCTests-tvOS.profile.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3730,7 +3618,6 @@
 		};
 		15CBA39624EFFE2E00C45BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6F43B0CA66DC86F59D2A7BE /* Pods-ReactiveObjCTests-macOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3788,7 +3675,6 @@
 		};
 		15CBA39724EFFE2E00C45BA3 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DD6C9A5DBAB4413A617C361 /* Pods-ReactiveObjCTests-macOS.test.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3841,7 +3727,6 @@
 		};
 		15CBA39824EFFE2E00C45BA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 329393FB1F37346D0308428B /* Pods-ReactiveObjCTests-macOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -3894,7 +3779,6 @@
 		};
 		15CBA39924EFFE2E00C45BA3 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEA3F9405C43871EDFAAEBC7 /* Pods-ReactiveObjCTests-macOS.profile.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
