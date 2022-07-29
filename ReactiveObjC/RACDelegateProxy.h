@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class RACSignal<__covariant ValueType>;
+@class RACTuple;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // Calls -rac_signalForSelector:fromProtocol: using the `protocol` specified
 // during initialization.
-- (RACSignal *)signalForSelector:(SEL)selector;
+- (RACSignal<RACTuple *> *)signalForSelector:(SEL)selector;
 
 @end
 

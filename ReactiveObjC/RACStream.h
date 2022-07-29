@@ -42,6 +42,8 @@ _Pragma("clang diagnostic pop")
 /// value. Returning `nil` will result in immediate termination.
 typedef RACStream * _Nullable (^RACStreamBindBlock)(ValueType _Nullable value, BOOL *stop);
 
+typedef RACStreamBindBlock _Nonnull (^RACStreamBindHandler)(void);
+
 /// Lazily binds a block to the values in the receiver.
 ///
 /// This should only be used if you need to terminate the bind early, or close
@@ -53,7 +55,7 @@ typedef RACStream * _Nullable (^RACStreamBindBlock)(ValueType _Nullable value, B
 ///
 /// Returns a new stream which represents the combined result of all lazy
 /// applications of `block`.
-- (__kindof RACStream *)bind:(RACStreamBindBlock (^)(void))block;
+- (__kindof RACStream *)bind:(RACStreamBindHandler)block;
 
 /// Appends the values of `stream` to the values in the receiver.
 ///

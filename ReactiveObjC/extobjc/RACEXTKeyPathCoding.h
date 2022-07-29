@@ -22,7 +22,7 @@ NSString *UTF8StringPath = @keypath(str.lowercaseString.UTF8String);
 NSString *versionPath = @keypath(NSObject, version);
 // => @"version"
 
-NSString *lowercaseStringPath = @keypath(NSString.new, lowercaseString);
+NSString *lowercaseStringPath = @keypath([[NSString alloc] init], lowercaseString);
 // => @"lowercaseString"
 
  * @endcode
@@ -50,10 +50,10 @@ NSString *lowercaseStringPath = @keypath(NSString.new, lowercaseString);
  *
  * @code
  
- NSString *employessFirstNamePath = @collectionKeypath(department.employees, Employee.new, firstName)
+ NSString *employessFirstNamePath = @collectionKeypath(department.employees, [[Employee alloc] init], firstName)
  // => @"employees.firstName"
  
- NSString *employessFirstNamePath = @collectionKeypath(Department.new, employees, Employee.new, firstName)
+ NSString *employessFirstNamePath = @collectionKeypath([[Department alloc] init], employees, [[Employee alloc] init], firstName)
  // => @"employees.firstName"
 
  * @endcode

@@ -58,7 +58,7 @@
 
 /// Do not use this directly. Use the RACChannelTo macro above.
 #define RACChannelTo_(TARGET, KEYPATH, NILVALUE) \
-    [[RACKVOChannel alloc] initWithTarget:(TARGET) keyPath:@keypath(TARGET, KEYPATH) nilValue:(NILVALUE)][@keypath(RACKVOChannel.new, followingTerminal)]
+    [[RACKVOChannel alloc] initWithTarget:(TARGET) keyPath:@keypath(TARGET, KEYPATH) nilValue:(NILVALUE)][@keypath([[RACKVOChannel alloc] init], followingTerminal)]
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -90,8 +90,6 @@ NS_ASSUME_NONNULL_BEGIN
 // Swift builds with OS_OBJECT_HAVE_OBJC_SUPPORT=0 for Playgrounds and LLDB :(
 - (instancetype)initWithTarget:(NSObject *)target keyPath:(NSString *)keyPath nilValue:(nullable ValueType)nilValue;
 #endif
-
-- (instancetype)init __attribute__((unavailable("Use -initWithTarget:keyPath:nilValue: instead")));
 
 @end
 

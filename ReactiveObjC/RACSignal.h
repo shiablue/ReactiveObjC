@@ -103,6 +103,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// value. Returning `nil` will result in immediate termination.
 typedef RACSignal * _Nullable (^RACSignalBindBlock)(ValueType _Nullable value, BOOL *stop);
 
+typedef RACSignalBindBlock _Nonnull (^RACSignalBindHandler)(void);
+
 /// Lazily binds a block to the values in the receiver.
 ///
 /// This should only be used if you need to terminate the bind early, or close
@@ -114,7 +116,7 @@ typedef RACSignal * _Nullable (^RACSignalBindBlock)(ValueType _Nullable value, B
 ///
 /// Returns a new signal which represents the combined result of all lazy
 /// applications of `block`.
-- (RACSignal *)bind:(RACSignalBindBlock (^)(void))block RAC_WARN_UNUSED_RESULT;
+- (RACSignal *)bind:(RACSignalBindHandler)block RAC_WARN_UNUSED_RESULT;
 
 /// Subscribes to `signal` when the source signal completes.
 - (RACSignal *)concat:(RACSignal *)signal RAC_WARN_UNUSED_RESULT;
