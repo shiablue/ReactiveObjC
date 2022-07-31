@@ -12,7 +12,7 @@
 #import "RACTestObject.h"
 #import "NSObjectRACPropertySubscribingExamples.h"
 
-#import <ReactiveObjC/RACEXTScope.h>
+#import "RACEXTScope.h"
 #import "NSObject+RACDeallocating.h"
 #import "NSObject+RACPropertySubscribing.h"
 #import "RACCompoundDisposable.h"

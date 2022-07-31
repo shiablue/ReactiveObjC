@@ -5,9 +5,11 @@
 //  Created by Uri Baghin on 06/08/2013.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
-#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UIControl+RACSignalSupportPrivate.h"
+
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
+
 #import "NSObject+RACDeallocating.h"
 #import "NSObject+RACLifting.h"
 #import "RACChannel.h"

@@ -5,9 +5,11 @@
 //  Created by Justin Spahr-Summers on 2013-07-22.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
-#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UITableViewCell+RACSignalSupport.h"
+
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
+
 #import "NSObject+RACDescription.h"
 #import "NSObject+RACSelectorSignal.h"
 #import "RACSignal+Operations.h"

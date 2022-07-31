@@ -5,10 +5,12 @@
 //  Created by Cody Krieger on 5/18/12.
 //  Copyright (c) 2012 Cody Krieger. All rights reserved.
 //
-#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UITextView+RACSignalSupport.h"
-#import <ReactiveObjC/RACEXTScope.h>
+
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
+
+#import "RACEXTScope.h"
 #import "NSObject+RACDeallocating.h"
 #import "NSObject+RACDescription.h"
 #import "RACDelegateProxy.h"

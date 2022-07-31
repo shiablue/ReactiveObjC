@@ -5,6 +5,9 @@
 //  Created by Cody Krieger on 5/18/12.
 //  Copyright (c) 2012 Cody Krieger. All rights reserved.
 //
+
+#import <TargetConditionals.h>
+
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import <UIKit/UIKit.h>

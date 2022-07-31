@@ -5,10 +5,12 @@
 //  Created by Josh Abernathy on 4/17/12.
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
-#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UIControl+RACSignalSupport.h"
-#import <ReactiveObjC/RACEXTScope.h>
+
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
+
+#import "RACEXTScope.h"
 #import "RACCompoundDisposable.h"
 #import "RACDisposable.h"
 #import "RACSignal.h"

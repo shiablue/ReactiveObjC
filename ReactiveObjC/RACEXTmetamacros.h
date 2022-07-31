@@ -6,6 +6,9 @@
  * Released under the MIT license
  */
 
+#ifndef _RACEXTmetamacros_h
+#define _RACEXTmetamacros_h
+
 /**
  * Executes one or more expressions (which may have a void type, such as a call
  * to a function that returns no value) and always returns true.
@@ -659,3 +662,5 @@ metamacro_if_eq(0, 1)(true)(false)
 #define metamacro_drop18(...) metamacro_drop17(metamacro_tail(__VA_ARGS__))
 #define metamacro_drop19(...) metamacro_drop18(metamacro_tail(__VA_ARGS__))
 #define metamacro_drop20(...) metamacro_drop19(metamacro_tail(__VA_ARGS__))
+
+#endif // _RACEXTmetamacros_h

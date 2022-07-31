@@ -5,6 +5,9 @@
 //  Created by Justin Spahr-Summers on 2013-03-08.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
+
+#import <TargetConditionals.h>
+
 #if TARGET_OS_OSX
 
 #import <Cocoa/Cocoa.h>

@@ -12,7 +12,7 @@
 #import "RACSubscriberExamples.h"
 
 #import <stdatomic.h>
-#import <ReactiveObjC/RACEXTScope.h>
+#import "RACEXTScope.h"
 #import "RACBehaviorSubject.h"
 #import "RACCompoundDisposable.h"
 #import "RACDisposable.h"

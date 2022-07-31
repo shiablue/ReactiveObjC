@@ -5,10 +5,12 @@
 //  Created by Henrik Hodne on 6/16/13.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
+
+#import "UIAlertView+RACSignalSupport.h"
+
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_9_0
 
-#import "UIAlertView+RACSignalSupport.h"
 #import "RACDelegateProxy.h"
 #import "RACSignal+Operations.h"
 #import "NSObject+RACDeallocating.h"

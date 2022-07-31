@@ -5,9 +5,11 @@
 //  Created by Zak Remer on 3/31/15.
 //  Copyright (c) 2015 GitHub. All rights reserved.
 //
-#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "MKAnnotationView+RACSignalSupport.h"
+
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
+
 #import "NSObject+RACDescription.h"
 #import "NSObject+RACSelectorSignal.h"
 #import "RACSignal+Operations.h"

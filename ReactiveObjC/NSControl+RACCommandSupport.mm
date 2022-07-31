@@ -5,9 +5,11 @@
 //  Created by Josh Abernathy on 3/3/12.
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
-#if TARGET_OS_OSX
 
 #import "NSControl+RACCommandSupport.h"
+
+#if TARGET_OS_OSX
+
 #import "RACCommand.h"
 #import "RACScopedDisposable.h"
 #import "RACSignal+Operations.h"

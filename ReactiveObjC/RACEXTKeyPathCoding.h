@@ -1,5 +1,5 @@
 //
-//  EXTKeyPathCoding.h
+//  RACEXTKeyPathCoding.h
 //  extobjc
 //
 //  Created by Justin Spahr-Summers on 19.06.12.
@@ -7,8 +7,11 @@
 //  Released under the MIT license.
 //
 
+#ifndef _RACEXTKeyPathCoding_h
+#define _RACEXTKeyPathCoding_h
+
 #import <Foundation/Foundation.h>
-#import "RACmetamacros.h"
+#import "RACEXTmetamacros.h"
 
 /**
  * \@keypath allows compile-time verification of key paths. Given a real object
@@ -66,3 +69,4 @@ NSString *lowercaseStringPath = @keypath([[NSString alloc] init], lowercaseStrin
 
 #define collectionKeypath4(OBJ, PATH, COLLECTION_OBJECT, COLLECTION_PATH) ([[NSString stringWithFormat:@"%s.%s",keypath(OBJ, PATH), keypath(COLLECTION_OBJECT, COLLECTION_PATH)] UTF8String])
 
+#endif // _RACEXTKeyPathCoding_h

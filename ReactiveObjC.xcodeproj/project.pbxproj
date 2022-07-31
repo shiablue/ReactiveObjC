@@ -10,10 +10,6 @@
 		1558452B24F08F0000EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1569DE4824EE40BE006F37E0 /* ReactiveObjC.framework */; };
 		1558452E24F08F1000EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CBA54324F0003C00C45BA3 /* ReactiveObjC.framework */; };
 		1558453124F08F1D00EE2D24 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CBA61524F0003F00C45BA3 /* ReactiveObjC.framework */; };
-		1558453324F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */; };
-		1558453424F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */; };
-		1558453524F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */; };
-		1558453624F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */; };
 		1569DE5624EE4239006F37E0 /* MKAnnotationView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE5724EE4239006F37E0 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1569DE5824EE4239006F37E0 /* NSControl+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642C19EDA41200A782A9 /* NSControl+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -293,9 +289,6 @@
 		15CBA43424EFFEEB00C45BA3 /* RACSubscriptingAssignmentTrampolineSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C124EFFEE900C45BA3 /* RACSubscriptingAssignmentTrampolineSpec.mm */; };
 		15CBA43524EFFEEB00C45BA3 /* RACSubscriptingAssignmentTrampolineSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C124EFFEE900C45BA3 /* RACSubscriptingAssignmentTrampolineSpec.mm */; };
 		15CBA43624EFFEEB00C45BA3 /* RACSubscriptingAssignmentTrampolineSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C124EFFEE900C45BA3 /* RACSubscriptingAssignmentTrampolineSpec.mm */; };
-		15CBA43724EFFEEB00C45BA3 /* RACSwiftBridgingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C224EFFEE900C45BA3 /* RACSwiftBridgingSpec.swift */; };
-		15CBA43824EFFEEB00C45BA3 /* RACSwiftBridgingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C224EFFEE900C45BA3 /* RACSwiftBridgingSpec.swift */; };
-		15CBA43924EFFEEB00C45BA3 /* RACSwiftBridgingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C224EFFEE900C45BA3 /* RACSwiftBridgingSpec.swift */; };
 		15CBA43A24EFFEEB00C45BA3 /* NSUserDefaultsRACSupportSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C324EFFEE900C45BA3 /* NSUserDefaultsRACSupportSpec.mm */; };
 		15CBA43B24EFFEEB00C45BA3 /* NSUserDefaultsRACSupportSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C324EFFEE900C45BA3 /* NSUserDefaultsRACSupportSpec.mm */; };
 		15CBA43C24EFFEEB00C45BA3 /* NSUserDefaultsRACSupportSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3C324EFFEE900C45BA3 /* NSUserDefaultsRACSupportSpec.mm */; };
@@ -925,22 +918,22 @@
 		15CBA6DE24F000CF00C45BA3 /* RACCompoundDisposableProvider.d in Sources */ = {isa = PBXBuildFile; fileRef = D037646A19EDA41200A782A9 /* RACCompoundDisposableProvider.d */; };
 		15CBA6DF24F000CF00C45BA3 /* RACSignalProvider.d in Sources */ = {isa = PBXBuildFile; fileRef = D03764A319EDA41200A782A9 /* RACSignalProvider.d */; };
 		15CBA6EE24F006F800C45BA3 /* RACEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6E924F006F700C45BA3 /* RACEXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15CBA6EF24F006F800C45BA3 /* RACmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EA24F006F700C45BA3 /* RACmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15CBA6EF24F006F800C45BA3 /* RACEXTmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EA24F006F700C45BA3 /* RACEXTmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15CBA6F024F006F800C45BA3 /* RACEXTRuntimeExtensions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA6EB24F006F700C45BA3 /* RACEXTRuntimeExtensions.mm */; };
 		15CBA6F124F006F800C45BA3 /* RACEXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EC24F006F700C45BA3 /* RACEXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		15CBA6F224F006F800C45BA3 /* RACEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6ED24F006F700C45BA3 /* RACEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15CBA6F324F0083100C45BA3 /* RACEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6ED24F006F700C45BA3 /* RACEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15CBA6F424F0083100C45BA3 /* RACEXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EC24F006F700C45BA3 /* RACEXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		15CBA6F524F0083100C45BA3 /* RACEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6E924F006F700C45BA3 /* RACEXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15CBA6F624F0083100C45BA3 /* RACmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EA24F006F700C45BA3 /* RACmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15CBA6F624F0083100C45BA3 /* RACEXTmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EA24F006F700C45BA3 /* RACEXTmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15CBA6F724F0084F00C45BA3 /* RACEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6ED24F006F700C45BA3 /* RACEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15CBA6F824F0084F00C45BA3 /* RACEXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EC24F006F700C45BA3 /* RACEXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		15CBA6F924F0084F00C45BA3 /* RACEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6E924F006F700C45BA3 /* RACEXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15CBA6FA24F0084F00C45BA3 /* RACmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EA24F006F700C45BA3 /* RACmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15CBA6FA24F0084F00C45BA3 /* RACEXTmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EA24F006F700C45BA3 /* RACEXTmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15CBA6FB24F0086700C45BA3 /* RACEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6ED24F006F700C45BA3 /* RACEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15CBA6FC24F0086700C45BA3 /* RACEXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EC24F006F700C45BA3 /* RACEXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		15CBA6FD24F0086700C45BA3 /* RACEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6E924F006F700C45BA3 /* RACEXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15CBA6FE24F0086700C45BA3 /* RACmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EA24F006F700C45BA3 /* RACmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15CBA6FE24F0086700C45BA3 /* RACEXTmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CBA6EA24F006F700C45BA3 /* RACEXTmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15CBA6FF24F0115A00C45BA3 /* RACEXTRuntimeExtensions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA6EB24F006F700C45BA3 /* RACEXTRuntimeExtensions.mm */; };
 		15CBA70024F0116300C45BA3 /* RACEXTRuntimeExtensions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA6EB24F006F700C45BA3 /* RACEXTRuntimeExtensions.mm */; };
 		15CBA70124F0116B00C45BA3 /* RACEXTRuntimeExtensions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA6EB24F006F700C45BA3 /* RACEXTRuntimeExtensions.mm */; };
@@ -971,9 +964,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Deprecations+Removals.swift"; sourceTree = "<group>"; };
 		1569DE4824EE40BE006F37E0 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1569DF2424EE4BE6006F37E0 /* ReactiveObjC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveObjC.pch; sourceTree = "<group>"; };
 		15CBA37A24EFFE1F00C45BA3 /* ReactiveObjCTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveObjCTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CBA37E24EFFE1F00C45BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15CBA38E24EFFE2A00C45BA3 /* ReactiveObjCTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveObjCTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1016,7 +1007,6 @@
 		15CBA3BF24EFFEE900C45BA3 /* RACKVOProxySpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; path = RACKVOProxySpec.mm; sourceTree = "<group>"; };
 		15CBA3C024EFFEE900C45BA3 /* RACEventSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; path = RACEventSpec.mm; sourceTree = "<group>"; };
 		15CBA3C124EFFEE900C45BA3 /* RACSubscriptingAssignmentTrampolineSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; path = RACSubscriptingAssignmentTrampolineSpec.mm; sourceTree = "<group>"; };
-		15CBA3C224EFFEE900C45BA3 /* RACSwiftBridgingSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACSwiftBridgingSpec.swift; sourceTree = "<group>"; };
 		15CBA3C324EFFEE900C45BA3 /* NSUserDefaultsRACSupportSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; path = NSUserDefaultsRACSupportSpec.mm; sourceTree = "<group>"; };
 		15CBA3C424EFFEE900C45BA3 /* RACBlockTrampolineSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; path = RACBlockTrampolineSpec.mm; sourceTree = "<group>"; };
 		15CBA3C524EFFEE900C45BA3 /* RACTestObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; path = RACTestObject.mm; sourceTree = "<group>"; };
@@ -1044,7 +1034,7 @@
 		15CBA61524F0003F00C45BA3 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CBA6E724F000CF00C45BA3 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CBA6E924F006F700C45BA3 /* RACEXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTScope.h; sourceTree = "<group>"; };
-		15CBA6EA24F006F700C45BA3 /* RACmetamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACmetamacros.h; sourceTree = "<group>"; };
+		15CBA6EA24F006F700C45BA3 /* RACEXTmetamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTmetamacros.h; sourceTree = "<group>"; };
 		15CBA6EB24F006F700C45BA3 /* RACEXTRuntimeExtensions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; path = RACEXTRuntimeExtensions.mm; sourceTree = "<group>"; };
 		15CBA6EC24F006F700C45BA3 /* RACEXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		15CBA6ED24F006F700C45BA3 /* RACEXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTKeyPathCoding.h; sourceTree = "<group>"; };
@@ -1417,7 +1407,6 @@
 				15CBA3C724EFFEEA00C45BA3 /* RACSubscriberExamples.mm */,
 				15CBA3D924EFFEEA00C45BA3 /* RACSubscriberSpec.mm */,
 				15CBA3C124EFFEE900C45BA3 /* RACSubscriptingAssignmentTrampolineSpec.mm */,
-				15CBA3C224EFFEE900C45BA3 /* RACSwiftBridgingSpec.swift */,
 				15CBA3CE24EFFEEA00C45BA3 /* RACTargetQueueSchedulerSpec.mm */,
 				15CBA3B724EFFEE900C45BA3 /* RACTestExampleScheduler.h */,
 				15CBA3A424EFFEE800C45BA3 /* RACTestExampleScheduler.mm */,
@@ -1445,9 +1434,9 @@
 				15CBA6EC24F006F700C45BA3 /* RACEXTRuntimeExtensions.h */,
 				15CBA6EB24F006F700C45BA3 /* RACEXTRuntimeExtensions.mm */,
 				15CBA6E924F006F700C45BA3 /* RACEXTScope.h */,
-				15CBA6EA24F006F700C45BA3 /* RACmetamacros.h */,
+				15CBA6EA24F006F700C45BA3 /* RACEXTmetamacros.h */,
 			);
-			path = extobjc;
+			name = extobjc;
 			sourceTree = "<group>";
 		};
 		D04725E019E49ED7006002AA = {
@@ -1478,7 +1467,6 @@
 		D04725EC19E49ED7006002AA /* ReactiveObjC */ = {
 			isa = PBXGroup;
 			children = (
-				1558453224F0A15900EE2D24 /* Deprecations+Removals.swift */,
 				D037666519EDA57100A782A9 /* extobjc */,
 				1569DF2324EE4B22006F37E0 /* AppKitSupport */,
 				1569DF2224EE4AAE006F37E0 /* UIKitSupport */,
@@ -1626,7 +1614,6 @@
 				D03764C019EDA41200A782A9 /* RACValueTransformer.h */,
 				D03764C119EDA41200A782A9 /* RACValueTransformer.mm */,
 				D04725EF19E49ED7006002AA /* ReactiveObjC.h */,
-				1569DF2424EE4BE6006F37E0 /* ReactiveObjC.pch */,
 				D04725ED19E49ED7006002AA /* Supporting Files */,
 			);
 			path = ReactiveObjC;
@@ -1716,7 +1703,7 @@
 				1569DEB524EE423A006F37E0 /* UITableViewCell+RACSignalSupport.h in Headers */,
 				1569DEB624EE423A006F37E0 /* UITableViewHeaderFooterView+RACSignalSupport.h in Headers */,
 				15CBA6F124F006F800C45BA3 /* RACEXTRuntimeExtensions.h in Headers */,
-				15CBA6EF24F006F800C45BA3 /* RACmetamacros.h in Headers */,
+				15CBA6EF24F006F800C45BA3 /* RACEXTmetamacros.h in Headers */,
 				15CBA6F224F006F800C45BA3 /* RACEXTKeyPathCoding.h in Headers */,
 				15CBA6EE24F006F800C45BA3 /* RACEXTScope.h in Headers */,
 				1569DEB724EE423A006F37E0 /* UITextField+RACSignalSupport.h in Headers */,
@@ -1829,7 +1816,7 @@
 				15CBA4BD24F0003C00C45BA3 /* UITextView+RACSignalSupport.h in Headers */,
 				15CBA6F324F0083100C45BA3 /* RACEXTKeyPathCoding.h in Headers */,
 				15CBA6F524F0083100C45BA3 /* RACEXTScope.h in Headers */,
-				15CBA6F624F0083100C45BA3 /* RACmetamacros.h in Headers */,
+				15CBA6F624F0083100C45BA3 /* RACEXTmetamacros.h in Headers */,
 				15CBA4BE24F0003C00C45BA3 /* UIControl+RACSignalSupportPrivate.h in Headers */,
 				15CBA4BF24F0003C00C45BA3 /* RACScheduler+Private.h in Headers */,
 				15CBA4C024F0003C00C45BA3 /* RACStream+Private.h in Headers */,
@@ -1939,7 +1926,7 @@
 				15CBA58F24F0003F00C45BA3 /* UITextView+RACSignalSupport.h in Headers */,
 				15CBA6F724F0084F00C45BA3 /* RACEXTKeyPathCoding.h in Headers */,
 				15CBA6F924F0084F00C45BA3 /* RACEXTScope.h in Headers */,
-				15CBA6FA24F0084F00C45BA3 /* RACmetamacros.h in Headers */,
+				15CBA6FA24F0084F00C45BA3 /* RACEXTmetamacros.h in Headers */,
 				15CBA59024F0003F00C45BA3 /* UIControl+RACSignalSupportPrivate.h in Headers */,
 				15CBA59124F0003F00C45BA3 /* RACScheduler+Private.h in Headers */,
 				15CBA59224F0003F00C45BA3 /* RACStream+Private.h in Headers */,
@@ -2049,7 +2036,7 @@
 				15CBA66124F000CF00C45BA3 /* UITextView+RACSignalSupport.h in Headers */,
 				15CBA6FB24F0086700C45BA3 /* RACEXTKeyPathCoding.h in Headers */,
 				15CBA6FD24F0086700C45BA3 /* RACEXTScope.h in Headers */,
-				15CBA6FE24F0086700C45BA3 /* RACmetamacros.h in Headers */,
+				15CBA6FE24F0086700C45BA3 /* RACEXTmetamacros.h in Headers */,
 				15CBA66224F000CF00C45BA3 /* UIControl+RACSignalSupportPrivate.h in Headers */,
 				15CBA66324F000CF00C45BA3 /* RACScheduler+Private.h in Headers */,
 				15CBA66424F000CF00C45BA3 /* RACStream+Private.h in Headers */,
@@ -2370,7 +2357,6 @@
 				1569DED824EE4272006F37E0 /* RACBlockTrampoline.mm in Sources */,
 				1569DED924EE4272006F37E0 /* RACChannel.mm in Sources */,
 				1569DEDA24EE4272006F37E0 /* RACCommand.mm in Sources */,
-				1558453324F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */,
 				1569DEDB24EE4272006F37E0 /* RACCompoundDisposable.mm in Sources */,
 				1569DEDC24EE4272006F37E0 /* RACDelegateProxy.mm in Sources */,
 				1569DEDD24EE4272006F37E0 /* RACDisposable.mm in Sources */,
@@ -2485,7 +2471,6 @@
 				15CBA3EF24EFFEEB00C45BA3 /* NSNotificationCenterRACSupportSpec.mm in Sources */,
 				15CBA46424EFFEEB00C45BA3 /* RACCommandSpec.mm in Sources */,
 				15CBA45224EFFEEB00C45BA3 /* RACTargetQueueSchedulerSpec.mm in Sources */,
-				15CBA43724EFFEEB00C45BA3 /* RACSwiftBridgingSpec.swift in Sources */,
 				15CBA3E624EFFEEB00C45BA3 /* RACCompoundDisposableSpec.mm in Sources */,
 				15CBA44C24EFFEEB00C45BA3 /* UIActionSheetRACSupportSpec.mm in Sources */,
 			);
@@ -2539,7 +2524,6 @@
 				15CBA3F024EFFEEB00C45BA3 /* NSNotificationCenterRACSupportSpec.mm in Sources */,
 				15CBA46524EFFEEB00C45BA3 /* RACCommandSpec.mm in Sources */,
 				15CBA45324EFFEEB00C45BA3 /* RACTargetQueueSchedulerSpec.mm in Sources */,
-				15CBA43824EFFEEB00C45BA3 /* RACSwiftBridgingSpec.swift in Sources */,
 				15CBA3E724EFFEEB00C45BA3 /* RACCompoundDisposableSpec.mm in Sources */,
 				15CBA44D24EFFEEB00C45BA3 /* UIActionSheetRACSupportSpec.mm in Sources */,
 			);
@@ -2591,7 +2575,6 @@
 				15CBA3F124EFFEEB00C45BA3 /* NSNotificationCenterRACSupportSpec.mm in Sources */,
 				15CBA46624EFFEEB00C45BA3 /* RACCommandSpec.mm in Sources */,
 				15CBA45424EFFEEB00C45BA3 /* RACTargetQueueSchedulerSpec.mm in Sources */,
-				15CBA43924EFFEEB00C45BA3 /* RACSwiftBridgingSpec.swift in Sources */,
 				15CBA3E824EFFEEB00C45BA3 /* RACCompoundDisposableSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2632,7 +2615,6 @@
 				15CBA4FB24F0003C00C45BA3 /* RACBlockTrampoline.mm in Sources */,
 				15CBA4FC24F0003C00C45BA3 /* RACChannel.mm in Sources */,
 				15CBA4FD24F0003C00C45BA3 /* RACCommand.mm in Sources */,
-				1558453424F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */,
 				15CBA4FE24F0003C00C45BA3 /* RACCompoundDisposable.mm in Sources */,
 				15CBA4FF24F0003C00C45BA3 /* RACDelegateProxy.mm in Sources */,
 				15CBA50024F0003C00C45BA3 /* RACDisposable.mm in Sources */,
@@ -2734,7 +2716,6 @@
 				15CBA5CD24F0003F00C45BA3 /* RACBlockTrampoline.mm in Sources */,
 				15CBA5CE24F0003F00C45BA3 /* RACChannel.mm in Sources */,
 				15CBA5CF24F0003F00C45BA3 /* RACCommand.mm in Sources */,
-				1558453524F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */,
 				15CBA5D024F0003F00C45BA3 /* RACCompoundDisposable.mm in Sources */,
 				15CBA5D124F0003F00C45BA3 /* RACDelegateProxy.mm in Sources */,
 				15CBA5D224F0003F00C45BA3 /* RACDisposable.mm in Sources */,
@@ -2836,7 +2817,6 @@
 				15CBA69F24F000CF00C45BA3 /* RACBlockTrampoline.mm in Sources */,
 				15CBA6A024F000CF00C45BA3 /* RACChannel.mm in Sources */,
 				15CBA6A124F000CF00C45BA3 /* RACCommand.mm in Sources */,
-				1558453624F0A15A00EE2D24 /* Deprecations+Removals.swift in Sources */,
 				15CBA6A224F000CF00C45BA3 /* RACCompoundDisposable.mm in Sources */,
 				15CBA6A324F000CF00C45BA3 /* RACDelegateProxy.mm in Sources */,
 				15CBA6A424F000CF00C45BA3 /* RACDisposable.mm in Sources */,
@@ -2959,7 +2939,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -3025,7 +3004,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3088,7 +3066,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3151,7 +3128,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3853,7 +3829,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -3918,7 +3893,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -3980,7 +3954,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4042,7 +4015,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4104,7 +4076,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -4169,7 +4140,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4231,7 +4201,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4293,7 +4262,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4355,7 +4323,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -4420,7 +4387,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4482,7 +4448,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4544,7 +4509,6 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = ReactiveObjC/ReactiveObjC.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4605,19 +4569,22 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DTRACE_PROBES_DISABLED;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/ReactiveObjC,
+					$SRCROOT/ReactiveObjC/extobjc,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fgnu-inline-asm",
-					"-ftrapv",
 					"-fmodules",
 				);
 				OTHER_CPLUSPLUSFLAGS = (
@@ -4672,18 +4639,21 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = DTRACE_PROBES_DISABLED;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/ReactiveObjC,
+					$SRCROOT/ReactiveObjC/extobjc,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fgnu-inline-asm",
-					"-ftrapv",
 					"-fmodules",
 				);
 				OTHER_CPLUSPLUSFLAGS = (
@@ -4739,18 +4709,21 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = DTRACE_PROBES_DISABLED;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/ReactiveObjC,
+					$SRCROOT/ReactiveObjC/extobjc,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fgnu-inline-asm",
-					"-ftrapv",
 					"-fmodules",
 				);
 				OTHER_CPLUSPLUSFLAGS = (
@@ -4807,19 +4780,22 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DTRACE_PROBES_DISABLED;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/ReactiveObjC,
+					$SRCROOT/ReactiveObjC/extobjc,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fgnu-inline-asm",
-					"-ftrapv",
 					"-fmodules",
 				);
 				OTHER_CPLUSPLUSFLAGS = (

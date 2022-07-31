@@ -7,7 +7,10 @@
 //  Released under the MIT license.
 //
 
-#import "RACmetamacros.h"
+#ifndef _RACEXTScope_h
+#define _RACEXTScope_h
+
+#import "RACEXTmetamacros.h"
 
 /**
  * \@onExit defines some code to be executed when the current scope exits. The
@@ -116,3 +119,5 @@ static inline void rac_executeCleanupBlock (__strong rac_cleanupBlock_t *block) 
 #else
 #define rac_keywordify try {} @catch (...) {}
 #endif
+
+#endif // _RACEXTScope_h

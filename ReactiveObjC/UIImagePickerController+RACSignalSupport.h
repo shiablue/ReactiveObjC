@@ -5,6 +5,9 @@
 //  Created by Timur Kuchkarov on 28.03.14.
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
+
+#import <TargetConditionals.h>
+
 #if TARGET_OS_IOS
 
 #import <UIKit/UIKit.h>

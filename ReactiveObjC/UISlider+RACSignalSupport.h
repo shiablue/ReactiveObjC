@@ -5,6 +5,9 @@
 //  Created by Uri Baghin on 20/07/2013.
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
+
+#import <TargetConditionals.h>
+
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import <UIKit/UIKit.h>

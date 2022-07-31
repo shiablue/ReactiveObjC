@@ -7,7 +7,7 @@
 //
 
 #import "RACTestScheduler.h"
-#import <ReactiveObjC/RACEXTScope.h>
+#import "RACEXTScope.h"
 #import "RACCompoundDisposable.h"
 #import "RACDisposable.h"
 #import "RACScheduler+Private.h"

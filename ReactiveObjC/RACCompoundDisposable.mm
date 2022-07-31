@@ -7,7 +7,11 @@
 //
 
 #import "RACCompoundDisposable.h"
+
+#if !defined(DTRACE_PROBES_DISABLED) || !DTRACE_PROBES_DISABLED
 #import "RACCompoundDisposableProvider.h"
+#endif
+
 #import <pthread/pthread.h>
 
 // The number of child disposables for which space will be reserved directly in
@@ -156,9 +160,11 @@ static CFMutableArrayRef RACCreateDisposablesArray(void) {
 			if (_disposables == NULL) _disposables = RACCreateDisposablesArray();
 			CFArrayAppendValue(_disposables, (__bridge void *)disposable);
 
+#if !defined(DTRACE_PROBES_DISABLED) || !DTRACE_PROBES_DISABLED
 			if (RACCOMPOUNDDISPOSABLE_ADDED_ENABLED()) {
 				RACCOMPOUNDDISPOSABLE_ADDED(self.description.UTF8String, disposable.description.UTF8String, CFArrayGetCount(_disposables) + RACCompoundDisposableInlineCount);
 			}
+#endif
 
 		#if RACCompoundDisposableInlineCount
 		foundSlot:;
@@ -193,9 +199,12 @@ static CFMutableArrayRef RACCreateDisposablesArray(void) {
 					}
 				}
 
+#if !defined(DTRACE_PROBES_DISABLED) || !DTRACE_PROBES_DISABLED
 				if (RACCOMPOUNDDISPOSABLE_REMOVED_ENABLED()) {
 					RACCOMPOUNDDISPOSABLE_REMOVED(self.description.UTF8String, disposable.description.UTF8String, CFArrayGetCount(_disposables) + RACCompoundDisposableInlineCount);
 				}
+#endif
+                
 			}
 		}
 	}

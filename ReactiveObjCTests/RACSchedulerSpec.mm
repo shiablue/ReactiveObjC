@@ -13,7 +13,7 @@
 #import "RACScheduler+Private.h"
 #import "RACQueueScheduler+Subclass.h"
 #import "RACDisposable.h"
-#import <ReactiveObjC/RACEXTScope.h>
+#import "RACEXTScope.h"
 #import "RACTestExampleScheduler.h"
 
 // This shouldn't be used directly. Use the `expectCurrentSchedulers` block

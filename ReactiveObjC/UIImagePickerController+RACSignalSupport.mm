@@ -5,9 +5,11 @@
 //  Created by Timur Kuchkarov on 28.03.14.
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
-#if TARGET_OS_IOS
 
 #import "UIImagePickerController+RACSignalSupport.h"
+
+#if TARGET_OS_IOS
+
 #import "RACDelegateProxy.h"
 #import "RACSignal+Operations.h"
 #import "NSObject+RACDeallocating.h"

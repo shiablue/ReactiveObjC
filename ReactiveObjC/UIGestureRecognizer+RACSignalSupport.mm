@@ -5,10 +5,12 @@
 //  Created by Josh Vera on 5/5/13.
 //  Copyright (c) 2013 GitHub. All rights reserved.
 //
-#if !TARGET_OS_OSX && !TARGET_OS_WATCH
 
 #import "UIGestureRecognizer+RACSignalSupport.h"
-#import <ReactiveObjC/RACEXTScope.h>
+
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
+
+#import "RACEXTScope.h"
 #import "NSObject+RACDeallocating.h"
 #import "NSObject+RACDescription.h"
 #import "RACCompoundDisposable.h"

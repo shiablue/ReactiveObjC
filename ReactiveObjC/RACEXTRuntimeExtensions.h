@@ -1,11 +1,14 @@
 //
-//  EXTRuntimeExtensions.h
+//  RACEXTRuntimeExtensions.h
 //  extobjc
 //
 //  Created by Justin Spahr-Summers on 2011-03-05.
 //  Copyright (C) 2012 Justin Spahr-Summers.
 //  Released under the MIT license.
 //
+
+#ifndef _RACEXTRuntimeExtensions_h
+#define _RACEXTRuntimeExtensions_h
 
 #import <objc/runtime.h>
 
@@ -82,8 +85,8 @@ typedef struct {
     SEL setter;
 
     /**
-     * The backing instance variable for this property, or \c NULL if \c
-     * \c @synthesize was not used, and therefore no instance variable exists. This
+     * The backing instance variable for this property, or \c NULL if
+     * @@synthesize was not used, and therefore no instance variable exists. This
      * would also be the case if the property is implemented dynamically.
      */
     const char *ivar;
@@ -120,3 +123,5 @@ Method rac_getImmediateInstanceMethod (Class aClass, SEL aSelector);
  * obtaining information from \a property.
  */
 rac_propertyAttributes *rac_copyPropertyAttributes (objc_property_t property);
+
+#endif // _RACEXTRuntimeExtensions_h
