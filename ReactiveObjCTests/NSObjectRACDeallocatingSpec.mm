@@ -21,11 +21,6 @@
 @end
 
 @implementation RACDeallocSwizzlingTestClass
-
-- (void)dealloc {
-	// Provide an empty implementation just so we can swizzle it.
-}
-
 @end
 
 @interface RACDeallocSwizzlingTestSubclass : RACDeallocSwizzlingTestClass

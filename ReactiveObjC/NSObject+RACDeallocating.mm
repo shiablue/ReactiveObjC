@@ -30,7 +30,7 @@ static void swizzleDeallocIfNeeded(Class classToSwizzle) {
 		NSString *className = NSStringFromClass(classToSwizzle);
 		if ([swizzledClasses() containsObject:className]) return;
 
-		typedef void (*objc_msgSendSuper_t)(struct objc_super *super, SEL op, ...);
+		typedef void (*objc_msgSendSuper_t)(struct objc_super *, SEL, ...);
 		typedef void (*objc_msgSend_t)(id, SEL, ...);
 
 		const char *types = "v@:";
@@ -41,18 +41,15 @@ static void swizzleDeallocIfNeeded(Class classToSwizzle) {
 			RACCompoundDisposable *compoundDisposable = objc_getAssociatedObject(self, RACObjectCompoundDisposable);
 			[compoundDisposable dispose];
 
-			((objc_msgSend_t)originalDealloc)(self, deallocSelector, args);
+			if (originalDealloc) {
+				((objc_msgSend_t)originalDealloc)(self, deallocSelector, args);
+			} else {
+				struct objc_super super = { self, class_getSuperclass(classToSwizzle) };
+				((objc_msgSendSuper_t)objc_msgSendSuper)(&super, deallocSelector, args);
+			}
 		});
 
 		originalDealloc = class_replaceMethod(classToSwizzle, deallocSelector, newDealloc, types);
-
-		// just call super if classToSwizzle doesn't overrite deaaloc method
-		if (!originalDealloc) {
-			originalDealloc = imp_implementationWithBlock(^(__unsafe_unretained id self, va_list args) {
-				objc_super super = { self, class_getSuperclass(classToSwizzle) };
-				((objc_msgSendSuper_t)objc_msgSendSuper)(&super, deallocSelector, args);
-			});
-		}
 
 		[swizzledClasses() addObject:className];
 	}
