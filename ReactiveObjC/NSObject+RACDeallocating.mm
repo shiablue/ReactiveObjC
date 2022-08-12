@@ -21,7 +21,7 @@ static NSMutableSet *swizzledClasses() {
 	dispatch_once(&onceToken, ^{
 		swizzledClasses = [[NSMutableSet alloc] init];
 	});
-	
+
 	return swizzledClasses;
 }
 
@@ -30,39 +30,28 @@ static void swizzleDeallocIfNeeded(Class classToSwizzle) {
 		NSString *className = NSStringFromClass(classToSwizzle);
 		if ([swizzledClasses() containsObject:className]) return;
 
+		typedef void (*objc_msgSendSuper_t)(struct objc_super *super, SEL op, ...);
+		typedef void (*objc_msgSend_t)(id, SEL, ...);
+
+		const char *types = "v@:";
 		SEL deallocSelector = sel_registerName("dealloc");
-
-		__block void (*originalDealloc)(__unsafe_unretained id, SEL) = NULL;
-
-		id newDealloc = ^(__unsafe_unretained id self) {
+		__block IMP originalDealloc = NULL;
+		
+		IMP newDealloc = imp_implementationWithBlock(^(__unsafe_unretained id self, va_list args) {
 			RACCompoundDisposable *compoundDisposable = objc_getAssociatedObject(self, RACObjectCompoundDisposable);
 			[compoundDisposable dispose];
 
-			if (originalDealloc == NULL) {
-				struct objc_super superInfo = {
-					.receiver = self,
-					.super_class = class_getSuperclass(classToSwizzle)
-				};
+			((objc_msgSend_t)originalDealloc)(self, deallocSelector, args);
+		});
 
-				void (*msgSend)(struct objc_super *, SEL) = (__typeof__(msgSend))objc_msgSendSuper;
-				msgSend(&superInfo, deallocSelector);
-			} else {
-				originalDealloc(self, deallocSelector);
-			}
-		};
-		
-		IMP newDeallocIMP = imp_implementationWithBlock(newDealloc);
-		
-		if (!class_addMethod(classToSwizzle, deallocSelector, newDeallocIMP, "v@:")) {
-			// The class already contains a method implementation.
-			Method deallocMethod = class_getInstanceMethod(classToSwizzle, deallocSelector);
-			
-			// We need to store original implementation before setting new implementation
-			// in case method is called at the time of setting.
-			originalDealloc = (__typeof__(originalDealloc))method_getImplementation(deallocMethod);
-			
-			// We need to store original implementation again, in case it just changed.
-			originalDealloc = (__typeof__(originalDealloc))method_setImplementation(deallocMethod, newDeallocIMP);
+		originalDealloc = class_replaceMethod(classToSwizzle, deallocSelector, newDealloc, types);
+
+		// just call super if classToSwizzle doesn't overrite deaaloc method
+		if (!originalDealloc) {
+			originalDealloc = imp_implementationWithBlock(^(__unsafe_unretained id self, va_list args) {
+				objc_super super = { self, class_getSuperclass(classToSwizzle) };
+				((objc_msgSendSuper_t)objc_msgSendSuper)(&super, deallocSelector, args);
+			});
 		}
 
 		[swizzledClasses() addObject:className];
