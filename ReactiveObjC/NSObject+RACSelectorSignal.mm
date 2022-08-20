@@ -27,7 +27,7 @@ static void *RACSubclassAssociationKey = &RACSubclassAssociationKey;
 static NSMutableSet *swizzledClasses() {
 	static NSMutableSet *set;
 	static dispatch_once_t pred;
-	
+
 	dispatch_once(&pred, ^{
 		set = [[NSMutableSet alloc] init];
 	});
@@ -228,11 +228,23 @@ static RACSignal *NSObjectRACSignalForSelector(NSObject *self, SEL selector, Pro
 
 			RACCheckTypeEncoding(typeEncoding);
 
-			BOOL addedAlias __attribute__((unused)) = class_addMethod(cls, aliasSelector, method_getImplementation(targetMethod), typeEncoding);
+            typedef void (*objc_msgSendSuper_t)(struct objc_super *, SEL, ...);
+            typedef void (*objc_msgSend_t)(id, SEL, ...);
+
+			__block IMP originalIMP = NULL;
+			BOOL addedAlias __attribute__((unused)) = class_addMethod(cls, aliasSelector, imp_implementationWithBlock(^(__unsafe_unretained id self, va_list args){
+				if (!originalIMP) {
+					struct objc_super super{ self, class_getSuperclass(cls) };
+
+					return ((objc_msgSendSuper_t)objc_msgSendSuper)(&super, selector, args);
+				}
+
+				return ((objc_msgSend_t)originalIMP)(self, selector, args);
+			}), typeEncoding);
 			NSCAssert(addedAlias, @"Original implementation for %@ is already copied to %@ on %@", NSStringFromSelector(selector), NSStringFromSelector(aliasSelector), cls);
 
 			// Redefine the selector to call -forwardInvocation:.
-			class_replaceMethod(cls, selector, _objc_msgForward, method_getTypeEncoding(targetMethod));
+			originalIMP = class_replaceMethod(cls, selector, _objc_msgForward, method_getTypeEncoding(targetMethod));
 		}
 
 		return subject;
