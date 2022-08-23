@@ -228,8 +228,9 @@ static RACSignal *NSObjectRACSignalForSelector(NSObject *self, SEL selector, Pro
 
 			RACCheckTypeEncoding(typeEncoding);
 
-            typedef void (*objc_msgSendSuper_t)(struct objc_super *, SEL, ...);
-            typedef void (*objc_msgSend_t)(id, SEL, ...);
+#if defined(__arm64__)
+			typedef void (*objc_msgSendSuper_t)(struct objc_super *, SEL, ...);
+			typedef void (*objc_msgSend_t)(id, SEL, ...);
 
 			__block IMP originalIMP = NULL;
 			BOOL addedAlias __attribute__((unused)) = class_addMethod(cls, aliasSelector, imp_implementationWithBlock(^(__unsafe_unretained id self, va_list args){
@@ -241,6 +242,11 @@ static RACSignal *NSObjectRACSignalForSelector(NSObject *self, SEL selector, Pro
 
 				return ((objc_msgSend_t)originalIMP)(self, selector, args);
 			}), typeEncoding);
+#else
+			IMP originalIMP __attribute__((unused)) = NULL;
+			BOOL addedAlias __attribute__((unused)) = class_addMethod(cls, aliasSelector, method_getImplementation(targetMethod), typeEncoding);
+#endif
+
 			NSCAssert(addedAlias, @"Original implementation for %@ is already copied to %@ on %@", NSStringFromSelector(selector), NSStringFromSelector(aliasSelector), cls);
 
 			// Redefine the selector to call -forwardInvocation:.
