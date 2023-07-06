@@ -1,3 +1,5 @@
+.DS_Store
+
 # Xcode
 build/*
 *.pbxuser
@@ -20,3 +22,7 @@ PlaygroundUtility.remap
 
 # Carthage
 Carthage/Build
+
+# Cocoapods
+Pods
+Podfile.lock

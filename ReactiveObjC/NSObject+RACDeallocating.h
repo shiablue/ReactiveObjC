@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// Returns a signal that will complete immediately before the receiver is fully
 /// deallocated. If already deallocated when the signal is subscribed to,
 /// a `completed` event will be sent immediately.
-- (RACSignal *)rac_willDeallocSignal;
+@property (atomic, readonly, strong) RACSignal *rac_willDeallocSignal;
 
 @end
 

@@ -6,6 +6,11 @@
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
 
+#import <TargetConditionals.h>
+
+#if !TARGET_OS_WATCH
+#if __MAC_OS_X_VERSION_MIN_REQUIRED < __MAC_10_11 || __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_9_0 || __TVOS_VERSION_MIN_REQUIRED < __TVOS_9_0
+
 #import <Foundation/Foundation.h>
 
 @class RACTwoTuple<__covariant First, __covariant Second>;
@@ -28,3 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+
+#endif 
+#endif

@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.author             = "ReactiveCocoa"
   s.social_media_url   = "https://twitter.com/ReactiveCocoa"
 
-  s.ios.deployment_target     = "8.0"
-  s.osx.deployment_target     = "10.9"
+  s.ios.deployment_target     = "9.0"
+  s.osx.deployment_target     = "10.11"
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target    = "9.0"
 
@@ -36,38 +36,10 @@ Pod::Spec.new do |s|
                             "**/*EXTRuntimeExtensions.h",
                             "**/RACEmpty*.h"
 
-  s.ios.exclude_files     = "ReactiveObjC/**/*{AppKit,NSControl,NSText,NSTable}*"
-
-  s.osx.exclude_files     = "ReactiveObjC/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,"\
-                            "UIButton,UICollectionReusableView,UIControl,UIDatePicker,"\
-                            "UIGestureRecognizer,UIImagePicker,UIRefreshControl,"\
-                            "UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,"\
-                            "UITableViewHeaderFooterView,UIText,MK}*"
-
-  s.tvos.exclude_files    = "ReactiveObjC/**/*{AppKit,NSControl,NSText,NSTable,UIActionSheet,"\
-                            "UIAlertView,UIDatePicker,UIImagePicker,UIRefreshControl,UISlider,"\
-                            "UIStepper,UISwitch,MK}*"
-
-  s.watchos.exclude_files = "ReactiveObjC/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,"\
-                            "UIButton,UICollectionReusableView,UIControl,UIDatePicker,"\
-                            "UIGestureRecognizer,UIImagePicker,UIRefreshControl,"\
-                            "UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,"\
-                            "UITableViewHeaderFooterView,UIText,MK,AppKit,NSControl,NSText,"\
-                            "NSTable,NSURLConnection}*"
-
   s.requires_arc = true
 
   s.frameworks   = "Foundation"
-
-  s.prepare_command = <<-'CMD'.strip_heredoc
-                        find -E . -type f -not -name 'RAC*' -regex '.*(EXT.*|metamacros)\.[hm]$' \
-                                  -execdir mv '{}' RAC'{}' \;
-                        find . -regex '.*\.[hm]' \
-                               -exec perl -pi \
-                                          -e 's@"(?:(?!RAC)(EXT.*|metamacros))\.h"@"RAC\1.h"@' '{}' \;
-                        find . -regex '.*\.[hm]' \
-                               -exec perl -pi \
-                                          -e 's@<ReactiveObjC/(?:(?!RAC)(EXT.*))\.h>@<ReactiveObjC/RAC\1.h>@' '{}' \;
-                      CMD
-
+                      
+  s.static_framework = true
+  
 end

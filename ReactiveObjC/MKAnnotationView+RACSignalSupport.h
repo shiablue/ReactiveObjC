@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 GitHub. All rights reserved.
 //
 
+#import <TargetConditionals.h>
+
+#if !TARGET_OS_OSX && !TARGET_OS_WATCH
+
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
@@ -32,3 +36,5 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+
+#endif
